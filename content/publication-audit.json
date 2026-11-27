@@ -4,7 +4,7 @@
     "article": 73,
     "dataset": 13,
     "software": 3,
-    "preprint": 13,
+    "preprint": 8,
     "conference": 20,
     "other": 3,
     "chapter": 2,
@@ -17,7 +17,7 @@
       "orcid": [
         "https://orcid.org/0000-0001-7911-3144"
       ],
-      "count": 33,
+      "count": 32,
       "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
     },
     {
@@ -33,7 +33,7 @@
       "orcid": [
         "https://orcid.org/0000-0001-7132-2080"
       ],
-      "count": 40,
+      "count": 38,
       "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
     },
     {
@@ -51,7 +51,7 @@
       "orcid": [
         "https://orcid.org/0000-0002-9134-4591"
       ],
-      "count": 31,
+      "count": 30,
       "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
     },
     {
@@ -78,7 +78,7 @@
       "orcid": [
         "https://orcid.org/0009-0003-6561-234X"
       ],
-      "count": 10,
+      "count": 9,
       "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
     },
     {
@@ -94,7 +94,7 @@
       "orcid": [
         "https://orcid.org/0000-0001-9817-2625"
       ],
-      "count": 25,
+      "count": 22,
       "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
     },
     {
@@ -151,6 +151,41 @@
       "doi": "10.31219/osf.io/9vrxf_v1",
       "title": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
       "reason": "Supplement, peer review or duplicate version"
+    },
+    {
+      "doi": "10.32942/X21T2Z",
+      "title": "Navigating Spatial Trade-offs in Restoration Planning: A Multi-Objective Optimization Framework Integrating Ecological Feasibility",
+      "reason": "Preprint superseded by verified journal publication",
+      "published_doi": "10.1016/j.jenvman.2026.131246",
+      "checked": "2026-11-27"
+    },
+    {
+      "doi": "10.2139/ssrn.6066102",
+      "title": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region",
+      "reason": "Preprint superseded by verified journal publication",
+      "published_doi": "10.1016/j.renene.2026.125766",
+      "checked": "2026-11-27"
+    },
+    {
+      "doi": "10.31219/osf.io/9vrxf",
+      "title": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
+      "reason": "Preprint superseded by verified journal publication",
+      "published_doi": "10.1111/csp2.70097",
+      "checked": "2026-11-27"
+    },
+    {
+      "doi": "10.1101/2024.08.20.608827",
+      "title": "Assessing the combined effects of forest management and climate change on carbon and water fluxes in European beech forests",
+      "reason": "Preprint superseded by verified journal publication",
+      "published_doi": "10.1016/j.fecs.2024.100290",
+      "checked": "2026-11-27"
+    },
+    {
+      "doi": "10.5194/egusphere-2024-1355",
+      "title": "Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire",
+      "reason": "Preprint superseded by verified journal publication",
+      "published_doi": "10.1007/s11676-026-01988-2",
+      "checked": "2026-11-27"
     }
   ],
   "pending": [
@@ -161,5 +196,154 @@
       "reason": "2025 doctoral thesis listed on ORCID. Repository returned HTTP 403; complete bibliographic record not independently verified, so not imported."
     }
   ],
-  "scope": "Current team members regardless of affiliation at publication. Print/citation year used where provided; online dates can differ. Distinct preprint and journal DOIs retained as labelled versions. DOI deduplication, not a guarantee that every output has been indexed. Datasets, software and reports included separately. Reports without DOI and theses without verified bibliographic records remain outside the imported catalogue."
+  "scope": "Current team members regardless of affiliation at publication. Print/citation year used where provided; online dates can differ. Preprints are removed from the public catalogue when a matching published journal version has been verified; the journal article is retained. DOI deduplication, not a guarantee that every output has been indexed. Datasets, software and reports included separately. Reports without DOI and theses without verified bibliographic records remain outside the imported catalogue.",
+  "preprint_review": [
+    {
+      "preprint_doi": "10.21203/rs.3.rs-10681478/v1",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "Integrating Sentinel-1 backscatter and co-occurrence texture metrics for vegetation fuel classification",
+      "evidence": [
+        "https://doi.org/10.21203/rs.3.rs-10681478/v1",
+        "https://api.crossref.org/works?query.title=Integrating%20Sentinel-1%20backscatter%20and%20co-occurrence%20texture%20metrics%20for%20vegetation%20fuel%20classification&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.64898/2026.09.25.753735",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "Rooting for water: Bridging Plant Hydraulics and Ecohydrology to Predict Drought Stress",
+      "evidence": [
+        "https://doi.org/10.64898/2026.09.25.753735",
+        "https://api.crossref.org/works?query.title=Rooting%20for%20water%3A%20Bridging%20Plant%20Hydraulics%20and%20Ecohydrology%20to%20Predict%20Drought%20Stress&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.5194/egusphere-2026-3106",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "Evaluating vegetation–hydrology interactions in Mediterranean catchments using the distributed ecohydrological model MEDFATELAND",
+      "evidence": [
+        "https://doi.org/10.5194/egusphere-2026-3106",
+        "https://api.crossref.org/works?query.title=Evaluating%20vegetation%E2%80%93hydrology%20interactions%20in%20Mediterranean%20catchments%20using%20the%20distributed%20ecohydrological%20model%20MEDFATELAND&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.32942/X21T2Z",
+      "checked": "2026-11-27",
+      "status": "removed_superseded",
+      "title": "Navigating Spatial Trade-offs in Restoration Planning: A Multi-Objective Optimization Framework Integrating Ecological Feasibility",
+      "evidence": [
+        "https://doi.org/10.32942/X21T2Z",
+        "https://api.crossref.org/works?query.title=Navigating%20Spatial%20Trade-offs%20in%20Restoration%20Planning%3A%20A%20Multi-Objective%20Optimization%20Framework%20Integrating%20Ecological%20Feasibility&filter=type:journal-article&rows=3",
+        "https://api.crossref.org/works/10.1016/j.jenvman.2026.131246",
+        "https://www.sciencedirect.com/science/article/pii/S0301479726027064",
+        "https://api.crossref.org/works/10.32942/X21T2Z"
+      ],
+      "published_doi": "10.1016/j.jenvman.2026.131246",
+      "verification": "Changed title; same author team, continental Chile case study, 812,910 planning units, four objectives and approximately 16.5% spatial reallocation."
+    },
+    {
+      "preprint_doi": "10.64898/2026.02.13.705393",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "Playback calls help to increase the detectability of Coturnix coturnix (Common quail), a cryptic and widespread galliform",
+      "evidence": [
+        "https://doi.org/10.64898/2026.02.13.705393",
+        "https://api.crossref.org/works?query.title=Playback%20calls%20help%20to%20increase%20the%20detectability%20of%20Coturnix%20coturnix%20%28Common%20quail%29%2C%20a%20cryptic%20and%20widespread%20galliform&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.2139/ssrn.6718798",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "From Area Targets to Efficiency Frontiers: A Multi-Objective Framework for Conservation Planning",
+      "evidence": [
+        "https://doi.org/10.2139/ssrn.6718798",
+        "https://api.crossref.org/works?query.title=From%20Area%20Targets%20to%20Efficiency%20Frontiers%3A%20A%20Multi-Objective%20Framework%20for%20Conservation%20Planning&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.48550/arxiv.2610.37803",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "3Dtrees.earth: community research infrastructure for tree and forest analysis using close-range LiDAR data",
+      "evidence": [
+        "https://doi.org/10.48550/arxiv.2610.37803",
+        "https://api.crossref.org/works?query.title=3Dtrees.earth%3A%20community%20research%20infrastructure%20for%20tree%20and%20forest%20analysis%20using%20close-range%20LiDAR%20data&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.2139/ssrn.7557268",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "Earth Observation foundation models in mapping dominant tree species in heterogenous Mediterranean forests",
+      "evidence": [
+        "https://doi.org/10.2139/ssrn.7557268",
+        "https://api.crossref.org/works?query.title=Earth%20Observation%20foundation%20models%20in%20mapping%20dominant%20tree%20species%20in%20heterogenous%20Mediterranean%20forests&filter=type:journal-article&rows=3"
+      ]
+    },
+    {
+      "preprint_doi": "10.2139/ssrn.6066102",
+      "checked": "2026-11-27",
+      "status": "removed_superseded",
+      "title": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region",
+      "evidence": [
+        "https://doi.org/10.2139/ssrn.6066102",
+        "https://api.crossref.org/works?query.title=Mapping%20optimal%20locations%20of%20forest%20biomass%20for%20solar-powered%20biorefinery%20plants%20in%20the%20Mediterranean%20region&filter=type:journal-article&rows=3",
+        "https://api.crossref.org/works/10.1016/j.renene.2026.125766"
+      ],
+      "published_doi": "10.1016/j.renene.2026.125766",
+      "verification": "Title, author list and published journal metadata match."
+    },
+    {
+      "preprint_doi": "10.31219/osf.io/9vrxf",
+      "checked": "2026-11-27",
+      "status": "removed_superseded",
+      "title": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
+      "evidence": [
+        "https://doi.org/10.31219/osf.io/9vrxf",
+        "https://api.crossref.org/works?query.title=An%20interoperable%20and%20standardized%20protocol%20for%20reporting%20systematic%20conservation%20planning%20projects&filter=type:journal-article&rows=3",
+        "https://api.crossref.org/works/10.1111/csp2.70097"
+      ],
+      "published_doi": "10.1111/csp2.70097",
+      "verification": "Title, author list and published journal metadata match."
+    },
+    {
+      "preprint_doi": "10.1101/2024.08.20.608827",
+      "checked": "2026-11-27",
+      "status": "removed_superseded",
+      "title": "Assessing the combined effects of forest management and climate change on carbon and water fluxes in European beech forests",
+      "evidence": [
+        "https://doi.org/10.1101/2024.08.20.608827",
+        "https://api.crossref.org/works?query.title=Assessing%20the%20combined%20effects%20of%20forest%20management%20and%20climate%20change%20on%20carbon%20and%20water%20fluxes%20in%20European%20beech%20forests&filter=type:journal-article&rows=3",
+        "https://api.crossref.org/works/10.1016/j.fecs.2024.100290"
+      ],
+      "published_doi": "10.1016/j.fecs.2024.100290",
+      "verification": "Title, author list and published journal metadata match."
+    },
+    {
+      "preprint_doi": "10.5194/egusphere-2024-1355",
+      "checked": "2026-11-27",
+      "status": "removed_superseded",
+      "title": "Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire",
+      "evidence": [
+        "https://doi.org/10.5194/egusphere-2024-1355",
+        "https://api.crossref.org/works?query.title=Fuel%20types%20and%20fire%20severity%20effects%20on%20atmospheric%20pollutant%20emissions%20in%20an%20extreme%20wind-driven%20wildfire&filter=type:journal-article&rows=3",
+        "https://api.crossref.org/works/10.1007/s11676-026-01988-2"
+      ],
+      "published_doi": "10.1007/s11676-026-01988-2",
+      "verification": "Title, author list and published journal metadata match."
+    },
+    {
+      "preprint_doi": "10.2139/ssrn.4692303",
+      "checked": "2026-11-27",
+      "status": "retained_no_verified_published_version",
+      "title": "Species Distribution Models Overfitting Effect on Hidden Animal Diversity Estimation: Implications for Conservation Decision-Making",
+      "evidence": [
+        "https://doi.org/10.2139/ssrn.4692303",
+        "https://api.crossref.org/works?query.title=Species%20Distribution%20Models%20Overfitting%20Effect%20on%20Hidden%20Animal%20Diversity%20Estimation%3A%20Implications%20for%20Conservation%20Decision-Making&filter=type:journal-article&rows=3"
+      ]
+    }
+  ]
 }

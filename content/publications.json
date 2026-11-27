@@ -1,6 +1,6 @@
 {
   "checked": "2026-11-27",
-  "scope": "Current LANDMOD members; citation years 2024–2026; articles and other DOI-registered research outputs. Preprints kept separately from journal versions.",
+  "scope": "Current LANDMOD members; citation years 2024–2026; articles and other DOI-registered research outputs. Preprints are omitted when a matching published journal version has been verified.",
   "entries": [
     {
       "id": "catalogue-0042a56e3f2e7b9d",
@@ -278,6 +278,9 @@
         "https://api.crossref.org/works/10.1016/j.jenvman.2026.131246",
         "https://orcid.org/0009-0003-6561-234X",
         "https://orcid.org/0000-0001-9817-2625"
+      ],
+      "superseded_preprint_dois": [
+        "10.32942/X21T2Z"
       ]
     },
     {
@@ -941,6 +944,9 @@
         "https://orcid.org/0000-0001-7911-3144",
         "https://orcid.org/0000-0002-9134-4591",
         "https://orcid.org/0000-0001-9817-2625"
+      ],
+      "superseded_preprint_dois": [
+        "10.2139/ssrn.6066102"
       ]
     },
     {
@@ -1219,41 +1225,6 @@
         "https://api.datacite.org/dois/10.5281/zenodo.20412421",
         "https://orcid.org/0009-0003-6561-234X",
         "https://orcid.org/0000-0001-9817-2625"
-      ]
-    },
-    {
-      "id": "catalogue-8a280df40262e1d2",
-      "type": "paper",
-      "publication_kind": "preprint",
-      "date": "2026-05-27",
-      "date_precision": "day",
-      "title": {
-        "en": "Navigating Spatial Trade-offs in Restoration Planning: A Multi-Objective Optimization Framework Integrating Ecological Feasibility",
-        "es": "Navigating Spatial Trade-offs in Restoration Planning: A Multi-Objective Optimization Framework Integrating Ecological Feasibility",
-        "ca": "Navigating Spatial Trade-offs in Restoration Planning: A Multi-Objective Optimization Framework Integrating Ecological Feasibility"
-      },
-      "scientific_title": "Navigating Spatial Trade-offs in Restoration Planning: A Multi-Objective Optimization Framework Integrating Ecological Feasibility",
-      "body": {
-        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
-        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
-        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
-      },
-      "authors": "Matías Moreno-Faguett; Jessica Castillo; Jose Salgado Rojas; Maria Jose Martinez-Harms; Barbara Larrain Barros; Micaela Poutay; Eduardo Fuentes-Lillo; Pablo Ramírez de Arellano; Patricio Pliscoff; Cecilia Smith-Ramírez; Olga Barbosa Prieto; Aníbal Pauchard; Jordi Garcia-Gonzalo; Virgilio Hermoso; Eduardo Álvarez-Miranda",
-      "venue": "California Digital Library (CDL)",
-      "doi": "10.32942/X21T2Z",
-      "url": "https://doi.org/10.32942/X21T2Z",
-      "source": "https://api.crossref.org/works/10.32942/X21T2Z",
-      "team_members": [
-        "Matías Moreno Faguett",
-        "José Salgado Rojas"
-      ],
-      "paper_status": "preprint",
-      "published": true,
-      "bibliographic": true,
-      "example": false,
-      "evidence": [
-        "https://api.crossref.org/works/10.32942/X21T2Z",
-        "https://orcid.org/0009-0003-6561-234X"
       ]
     },
     {
@@ -1610,6 +1581,9 @@
       "evidence": [
         "https://api.crossref.org/works/10.1007/s11676-026-01988-2",
         "https://orcid.org/0000-0001-7132-2080"
+      ],
+      "superseded_preprint_dois": [
+        "10.5194/egusphere-2024-1355"
       ]
     },
     {
@@ -1859,11 +1833,11 @@
       "date": "2026-02-14",
       "date_precision": "day",
       "title": {
-        "en": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform",
-        "es": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform",
-        "ca": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform"
+        "en": "Playback calls help to increase the detectability of Coturnix coturnix (Common quail), a cryptic and widespread galliform",
+        "es": "Playback calls help to increase the detectability of Coturnix coturnix (Common quail), a cryptic and widespread galliform",
+        "ca": "Playback calls help to increase the detectability of Coturnix coturnix (Common quail), a cryptic and widespread galliform"
       },
-      "scientific_title": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform",
+      "scientific_title": "Playback calls help to increase the detectability of Coturnix coturnix (Common quail), a cryptic and widespread galliform",
       "body": {
         "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
         "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
@@ -2237,43 +2211,6 @@
       "evidence": [
         "https://api.crossref.org/works/10.1016/j.tfp.2025.101141",
         "https://orcid.org/0000-0001-7132-2080"
-      ]
-    },
-    {
-      "id": "catalogue-85dc86fd3726d04b",
-      "type": "paper",
-      "publication_kind": "preprint",
-      "date": "2026-01-01",
-      "date_precision": "year",
-      "title": {
-        "en": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region",
-        "es": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region",
-        "ca": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region"
-      },
-      "scientific_title": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region",
-      "body": {
-        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
-        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
-        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
-      },
-      "authors": "Erico Kutchartt; Francesco Pirotti; José Salgado-Rojas; Álvaro Cortés-Molino; Núria Aquilué; Neus Puy",
-      "venue": "Elsevier BV",
-      "doi": "10.2139/ssrn.6066102",
-      "url": "https://doi.org/10.2139/ssrn.6066102",
-      "source": "https://api.crossref.org/works/10.2139/ssrn.6066102",
-      "team_members": [
-        "Núria Aquilué Junyent",
-        "Erico Kutchartt",
-        "José Salgado Rojas"
-      ],
-      "paper_status": "preprint",
-      "published": true,
-      "bibliographic": true,
-      "example": false,
-      "evidence": [
-        "https://api.crossref.org/works/10.2139/ssrn.6066102",
-        "https://orcid.org/0000-0001-7911-3144",
-        "https://orcid.org/0000-0001-9817-2625"
       ]
     },
     {
@@ -2964,6 +2901,9 @@
       "evidence": [
         "https://api.crossref.org/works/10.1111/csp2.70097",
         "https://orcid.org/0000-0001-9817-2625"
+      ],
+      "superseded_preprint_dois": [
+        "10.31219/osf.io/9vrxf"
       ]
     },
     {
@@ -3238,6 +3178,9 @@
       "evidence": [
         "https://api.crossref.org/works/10.1016/j.fecs.2024.100290",
         "https://orcid.org/0000-0001-7132-2080"
+      ],
+      "superseded_preprint_dois": [
+        "10.1101/2024.08.20.608827"
       ]
     },
     {
@@ -3930,40 +3873,6 @@
       ]
     },
     {
-      "id": "catalogue-957f0f7b5b8b05a0",
-      "type": "paper",
-      "publication_kind": "preprint",
-      "date": "2024-10-24",
-      "date_precision": "day",
-      "title": {
-        "en": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
-        "es": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
-        "ca": "An interoperable and standardized protocol for reporting systematic conservation planning projects"
-      },
-      "scientific_title": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
-      "body": {
-        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
-        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
-        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
-      },
-      "authors": "Martin Jung; Vanessa Adams; Diogo André Alagador; Jorge Gabriel Álvarez-Romero; Miguel Araujo; Anni Arponen; Maria Beger; Jutta Beher; Silvia Carvalho; Sylvaine Giakoumi; Jeffrey Hanson; Virgilio Hermoso; Kerstin Jantke; Heini Kujala; Jennifer McGowan; Anna Metaxas; Louise O'Connor; Jose Salgado-Rojas; Richard Schuster; Robert J. Smith; Piero Visconti",
-      "venue": "Center for Open Science",
-      "doi": "10.31219/osf.io/9vrxf",
-      "url": "https://doi.org/10.31219/osf.io/9vrxf",
-      "source": "https://api.crossref.org/works/10.31219/osf.io/9vrxf",
-      "team_members": [
-        "José Salgado Rojas"
-      ],
-      "paper_status": "preprint",
-      "published": true,
-      "bibliographic": true,
-      "example": false,
-      "evidence": [
-        "https://api.crossref.org/works/10.31219/osf.io/9vrxf",
-        "https://orcid.org/0000-0001-9817-2625"
-      ]
-    },
-    {
       "id": "catalogue-a933d6de3267e145",
       "type": "paper",
       "publication_kind": "article",
@@ -3996,40 +3905,6 @@
         "https://api.crossref.org/works/10.3356/jrr2357",
         "https://orcid.org/0000-0001-9474-3574",
         "https://www.ctfc.cat/personal24_det.php?id=295"
-      ]
-    },
-    {
-      "id": "catalogue-eb5f62b1f6f90081",
-      "type": "paper",
-      "publication_kind": "preprint",
-      "date": "2024-08-21",
-      "date_precision": "day",
-      "title": {
-        "en": "Assessing the combined effects of forest management and climate change on carbon and water fluxes in European beech forests",
-        "es": "Assessing the combined effects of forest management and climate change on carbon and water fluxes in European beech forests",
-        "ca": "Assessing the combined effects of forest management and climate change on carbon and water fluxes in European beech forests"
-      },
-      "scientific_title": "Assessing the combined effects of forest management and climate change on carbon and water fluxes in European beech forests",
-      "body": {
-        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
-        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
-        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
-      },
-      "authors": "Vincenzo Saponaro; Miquel De Cáceres; Daniela Dalmonech; Ettore D’Andrea; Elia Vangi; Alessio Collalti",
-      "venue": "openRxiv",
-      "doi": "10.1101/2024.08.20.608827",
-      "url": "https://doi.org/10.1101/2024.08.20.608827",
-      "source": "https://api.crossref.org/works/10.1101/2024.08.20.608827",
-      "team_members": [
-        "Miquel De Cáceres Ainsa"
-      ],
-      "paper_status": "preprint",
-      "published": true,
-      "bibliographic": true,
-      "example": false,
-      "evidence": [
-        "https://api.crossref.org/works/10.1101/2024.08.20.608827",
-        "https://orcid.org/0000-0001-7132-2080"
       ]
     },
     {
@@ -4235,40 +4110,6 @@
       "example": false,
       "evidence": [
         "https://api.crossref.org/works/10.1016/j.dib.2024.110384",
-        "https://orcid.org/0000-0001-7132-2080"
-      ]
-    },
-    {
-      "id": "catalogue-128318ca2a93ef9b",
-      "type": "paper",
-      "publication_kind": "preprint",
-      "date": "2024-05-17",
-      "date_precision": "day",
-      "title": {
-        "en": "Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire",
-        "es": "Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire",
-        "ca": "Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire"
-      },
-      "scientific_title": "Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire",
-      "body": {
-        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
-        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
-        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
-      },
-      "authors": "Albert Alvarez; Judit Lecina-Diaz; Miquel De Càceres; Jordi Vayreda; Javier Retana",
-      "venue": "Copernicus GmbH",
-      "doi": "10.5194/egusphere-2024-1355",
-      "url": "https://doi.org/10.5194/egusphere-2024-1355",
-      "source": "https://api.crossref.org/works/10.5194/egusphere-2024-1355",
-      "team_members": [
-        "Miquel De Cáceres Ainsa"
-      ],
-      "paper_status": "preprint",
-      "published": true,
-      "bibliographic": true,
-      "example": false,
-      "evidence": [
-        "https://api.crossref.org/works/10.5194/egusphere-2024-1355",
         "https://orcid.org/0000-0001-7132-2080"
       ]
     },
