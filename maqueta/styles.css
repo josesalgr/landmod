@@ -273,14 +273,14 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 /* Compact annual article chart beside the page title */
 .publications-title-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:20px}
 .publications-title-row h1{margin:0}
-.publication-chart-mini{display:flex;gap:14px;width:170px;height:86px;flex-shrink:0;padding-top:16px}
+.publication-chart-mini{display:flex;gap:14px;width:250px;height:116px;flex-shrink:0;padding-top:16px}
 .mini-chart-year{display:flex;flex:1;flex-direction:column;align-items:center;padding:0;border:0;background:transparent;cursor:pointer;color:#6b756f;font:inherit}
-.mini-chart-track{display:flex;align-items:flex-end;justify-content:center;width:100%;height:52px;border-bottom:1px solid #cbd3cd}
-.mini-chart-bar{position:relative;display:block;width:26px;height:var(--bar-height);min-height:2px;background:#7d9185;transition:background .15s}
-.mini-chart-bar>span{position:absolute;top:-16px;left:0;right:0;font-size:11px;line-height:14px;text-align:center;color:#617268}
-.mini-chart-label{font-size:11px;line-height:18px;margin-top:3px}
+.mini-chart-track{display:flex;align-items:flex-end;justify-content:center;width:100%;height:80px;border-bottom:1px solid #cbd3cd}
+.mini-chart-bar{position:relative;display:block;width:38px;height:var(--bar-height);min-height:2px;background:#7d9185;transition:background .15s}
+.mini-chart-bar>span{position:absolute;top:-16px;left:0;right:0;font-size:12px;line-height:14px;text-align:center;color:#617268}
+.mini-chart-label{font-size:12px;line-height:20px;margin-top:3px}
 .mini-chart-year:hover .mini-chart-bar{background:var(--pine)}
 .mini-chart-year:focus-visible{outline:2px solid #b87754;outline-offset:4px}
 .publication-controls{scroll-margin-top:100px}
-@media(max-width:480px){.publications-title-row{gap:12px}.publications-title-row h1{font-size:32px}.publication-chart-mini{width:126px;gap:9px}.mini-chart-bar{width:23px}}
+@media(max-width:480px){.publications-title-row{gap:12px}.publications-title-row h1{font-size:32px}.publication-chart-mini{width:160px;gap:10px;height:106px}.mini-chart-track{height:70px}.mini-chart-bar{width:29px}}
 @media(prefers-reduced-motion:reduce){.mini-chart-bar{transition:none}}
