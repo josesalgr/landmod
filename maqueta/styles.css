@@ -270,25 +270,17 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 @media(max-width:1000px){.projects-catalogue{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.projects-catalogue{grid-template-columns:1fr}.project-detail>.project-logo{height:145px}}
 
-/* Annual journal-article histogram */
-.publication-chart{margin:32px 0 38px;padding:32px 36px 20px;background:#edf2ec;border:1px solid #d7e1d5;border-radius:8px;overflow:hidden}
-.publication-chart-header{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
-.chart-eyebrow{font-size:11px!important;letter-spacing:.14em;font-weight:600;color:#677c6b;margin:0 0 10px!important}
-.publication-chart h2{font-size:clamp(23px,3vw,34px);font-weight:300;line-height:1.2;margin:0 0 10px;color:var(--pine)}
-.chart-hint{font-size:14px!important;color:#52685f;margin:0!important}
-.chart-total{display:flex;gap:12px;align-items:center;flex-shrink:0;color:var(--pine)}
-.chart-total>strong{font-size:62px;font-weight:300;line-height:1;letter-spacing:-.05em}
-.chart-total>span{font-size:14px;line-height:1.5}.chart-total small{display:block;color:#6b7d70;font-size:12px;margin-top:3px}
-.chart-plot{display:flex;gap:14px;height:225px;margin:30px 0 14px}
-.chart-axis{width:28px;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between;padding-bottom:32px;color:#728075;font-size:12px;text-align:right}
-.chart-bars{display:flex;align-items:stretch;justify-content:space-around;gap:clamp(16px,6vw,90px);padding:0 7%;width:100%;background:repeating-linear-gradient(to top,transparent 0,transparent calc(25% - 1px),#d6dfd3 calc(25% - 1px),#d6dfd3 25%);background-size:100% calc(100% - 32px);background-repeat:no-repeat;border-bottom:0}
-.chart-year{display:flex;flex:1;max-width:180px;flex-direction:column;align-items:center;justify-content:flex-end;gap:0;padding:0;border:0;background:transparent;color:var(--pine);cursor:pointer;font:inherit}
-.chart-bar-space{display:flex;align-items:flex-end;justify-content:center;height:calc(100% - 32px);width:100%;border-bottom:1px solid #9dad9b}
-.chart-bar{display:flex;position:relative;justify-content:center;width:100%;height:var(--bar-height);min-height:2px;background:#225847;border-radius:5px 5px 0 0;transition:background .2s,filter .2s,box-shadow .2s}
-.chart-year-latest .chart-bar{background:#b87754}.chart-bar strong{position:absolute;top:-27px;font-size:19px;font-weight:500;line-height:1;color:var(--pine)}
-.chart-year-label{height:32px;padding-top:10px;font-size:14px;font-weight:500;letter-spacing:.04em}
-.chart-year:hover .chart-bar{filter:brightness(1.12);box-shadow:0 -4px 20px #193f3020}.chart-year:focus-visible{outline:2px solid #a65d3a;outline-offset:6px;border-radius:3px}
-.chart-note{font-size:12px!important;line-height:1.5!important;color:#637568;margin:0!important;border-top:1px solid #d7e1d5;padding-top:14px}
+/* Compact annual article chart beside the page title */
+.publications-title-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:20px}
+.publications-title-row h1{margin:0}
+.publication-chart-mini{display:flex;gap:14px;width:170px;height:86px;flex-shrink:0;padding-top:16px}
+.mini-chart-year{display:flex;flex:1;flex-direction:column;align-items:center;padding:0;border:0;background:transparent;cursor:pointer;color:#6b756f;font:inherit}
+.mini-chart-track{display:flex;align-items:flex-end;justify-content:center;width:100%;height:52px;border-bottom:1px solid #cbd3cd}
+.mini-chart-bar{position:relative;display:block;width:26px;height:var(--bar-height);min-height:2px;background:#7d9185;transition:background .15s}
+.mini-chart-bar>span{position:absolute;top:-16px;left:0;right:0;font-size:11px;line-height:14px;text-align:center;color:#617268}
+.mini-chart-label{font-size:11px;line-height:18px;margin-top:3px}
+.mini-chart-year:hover .mini-chart-bar{background:var(--pine)}
+.mini-chart-year:focus-visible{outline:2px solid #b87754;outline-offset:4px}
 .publication-controls{scroll-margin-top:100px}
-@media(max-width:650px){.publication-chart{padding:24px 20px 18px}.publication-chart-header{flex-direction:column;gap:20px}.chart-total>strong{font-size:48px}.chart-plot{height:210px;margin-top:32px}.chart-bars{padding:0 3%;gap:28px}.chart-bar strong{font-size:17px}}
-@media(prefers-reduced-motion:reduce){.chart-bar{transition:none}}
+@media(max-width:480px){.publications-title-row{gap:12px}.publications-title-row h1{font-size:32px}.publication-chart-mini{width:126px;gap:9px}.mini-chart-bar{width:23px}}
+@media(prefers-reduced-motion:reduce){.mini-chart-bar{transition:none}}
