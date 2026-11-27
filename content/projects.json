@@ -35,8 +35,8 @@
       "kind": "project",
       "url": "https://www.bospir3d.eu/",
       "featured": true,
-      "logo": "/uploads/projects/bospir-3d.png",
-      "logo_source": "Official logo supplied by the LANDMOD team",
+      "logo": "/uploads/projects/bospir-3d-hq.png",
+      "logo_source": "High-resolution official logo supplied by the LANDMOD team",
       "evidence": [
         "https://ari.ad/projectes/bospir-3d",
         "https://ctfc.cat/docs/26-02-00008%20KTT%20D%2BI%20SPECIALIST%20IN%20GEOMATICA%20.pdf"
@@ -52,14 +52,14 @@
       "category_ca": "Projecte",
       "period": "2025–2028",
       "logo_size": [
-        200,
-        200
+        3651,
+        2850
       ],
       "logo_viewbox": [
-        29,
-        44,
-        144,
-        111
+        569,
+        477,
+        2534,
+        1969
       ]
     },
     {
