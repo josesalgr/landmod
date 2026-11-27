@@ -68,7 +68,6 @@
     "checked": "2026-11-27",
     "policy": "Whole-project total costs only; BIOCONSENT source publishes total grant, labelled separately. No partner-only awards or inferred budgets. Date precision follows source.",
     "pending": {
-      "PLAN-CAZA": "Total budget not found in official CTFC/FECYT project pages. Period confirmed May 2026–May 2028.",
       "FORESFUTURE": "No verified contractual start/end or total budget. Reports dated 2023–2025 and simulation horizon to 2100 are not execution dates."
     },
     "sources": {
@@ -83,6 +82,12 @@
       "PRISMA": "https://fundacion-biodiversidad.es/proyecto_prtr/bosques-del-siglo-xxi-empoderados-innovadores-y-con-emprendimiento-prisma/",
       "BIOCONSENT": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
       "ONEforest": "https://cordis.europa.eu/project/id/101000406"
+    },
+    "team_supplied": {
+      "PLAN-CAZA": {
+        "budget_eur": 97500,
+        "date": "2026-11-27"
+      }
     }
   }
 }

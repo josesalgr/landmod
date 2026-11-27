@@ -31,11 +31,12 @@
       ],
       "start_date": "2026-05",
       "end_date": "2028-05",
-      "budget_eur": null,
+      "budget_eur": 97500,
       "budget_basis": "total",
       "facts_source": "https://www.convocatoriasip.fecyt.es/proyectos/desarrollo-de-una-herramienta-de-planificacion-y-optimizacion-para-el-reparto-de-cupos-de",
       "facts_checked": "2026-11-27",
-      "period": "2026–2028"
+      "period": "2026–2028",
+      "budget_source": "Amount supplied by the LANDMOD team"
     },
     {
       "name": "BOSPIR-3D",

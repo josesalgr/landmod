@@ -84,7 +84,7 @@ function projectFacts(p){
  const date=v=>!v?'':v.length===4?v:new Intl.DateTimeFormat(lang,{month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(v.length===7?v+'-01':v));
  const period=p.start_date&&p.end_date?date(p.start_date)+' – '+date(p.end_date):c.pending;
  const amount=typeof p.budget_eur==='number'?new Intl.NumberFormat(lang,{style:'currency',currency:'EUR',minimumFractionDigits:2,maximumFractionDigits:2}).format(p.budget_eur):c.pending;
- return `<dl class="project-facts"><div><dt>${c.period}</dt><dd>${esc(period)}</dd></div><div><dt>${p.budget_basis==='grant'?c.grant:c.budget}</dt><dd>${esc(amount)}</dd></div></dl>${p.facts_source?`<p class="project-facts-source">${urlLink(p.facts_source,c.source)}</p>`:''}`;
+ return `<dl class="project-facts"><div><dt>${c.period}</dt><dd>${esc(period)}</dd></div><div><dt>${p.budget_basis==='grant'?c.grant:c.budget}</dt><dd>${esc(amount)}</dd></div></dl>`;
 }
 function projectsPage(){const c=projectCopy[lang];return `<section class="projects-page"><a class="breadcrumb" href="${homeURL()}">${lang==='en'?'Back to home':lang==='es'?'Volver al inicio':'Tornar a l’inici'}</a><h1>${c.title}</h1><p class="page-intro">${c.intro}</p><div class="projects-catalogue">${data.projects.filter(p=>p.kind==='project').map(p=>`<article class="project-detail" id="${projectId(p)}"><div class="project-logo ${p.logo_theme==='dark'?'project-logo-dark':''}">${projectLogo(p)}</div><div><h2>${esc(p.name)}</h2>${projectFacts(p)}<p>${esc(p['description_'+lang]||p['label_'+lang]||p.label_en)}</p>${urlLink(p.url,c.website)}</div></article>`).join('')}</div><p class="source-note">${c.note}</p></section>`;}
 

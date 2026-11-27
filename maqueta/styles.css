@@ -257,3 +257,15 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .project-facts dd{margin:0;font-size:17px;font-weight:500;color:var(--pine);line-height:1.5}
 .project-facts-source{font-size:13px;margin:0 0 16px}
 @media(max-width:600px){.project-facts{grid-template-columns:1fr;gap:12px}}
+
+/* Compact three-column project catalogue */
+.projects-catalogue{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.project-detail{padding:22px}
+.project-detail>.project-logo{height:145px;padding:12px;margin-bottom:20px}
+.project-detail h2{font-size:23px;margin-bottom:12px}
+.project-detail p{font-size:15px;line-height:1.6;margin-bottom:16px}
+.project-facts{grid-template-columns:1fr;gap:9px;margin:12px 0 16px;padding:12px 0}
+.project-facts dt{font-size:13px;margin-bottom:2px}
+.project-facts dd{font-size:15px}
+@media(max-width:1000px){.projects-catalogue{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.projects-catalogue{grid-template-columns:1fr}.project-detail>.project-logo{height:145px}}
