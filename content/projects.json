@@ -8,7 +8,8 @@
       "category_es": "Herramienta",
       "category_en": "Tool",
       "label_ca": "Modelització i planificació forestal",
-      "category_ca": "Eina"
+      "category_ca": "Eina",
+      "kind": "tool"
     },
     {
       "name": "RES-MAB",
@@ -18,7 +19,10 @@
       "category_es": "Proyecto",
       "category_en": "Project",
       "label_ca": "Resiliència en reserves de la biosfera mediterrànies",
-      "category_ca": "Projecte"
+      "category_ca": "Projecte",
+      "logo": "/uploads/projects/res-mab.png",
+      "logo_source": "https://resmab.eu/wp-content/uploads/2024/10/Menu_logo_RESMAB.png",
+      "kind": "project"
     },
     {
       "name": "BIOCONSENT",
@@ -28,7 +32,10 @@
       "category_es": "Proyecto",
       "category_en": "Project",
       "label_ca": "Decisions per conservar i restaurar la biodiversitat forestal",
-      "category_ca": "Projecte"
+      "category_ca": "Projecte",
+      "logo": "/uploads/projects/bioconsent.avif",
+      "logo_source": "https://efi.int/sites/default/files/styles/logo/public/2026-09/bioconsent-logo.png.avif?itok=Q8CAak4k",
+      "kind": "project"
     },
     {
       "name": "ONEforest",
@@ -38,7 +45,10 @@
       "category_es": "Resultados de proyecto",
       "category_en": "Project results",
       "label_ca": "Suport multicriteri a la gestió forestal",
-      "category_ca": "Resultats de projecte"
+      "category_ca": "Resultats de projecte",
+      "logo": "/uploads/projects/oneforest.png",
+      "logo_source": "https://www.oneforest.eu/sites/default/files/ONEForest%20horizontal%20logo_transparent.png",
+      "kind": "project"
     },
     {
       "name": "PRISMA",
@@ -48,7 +58,10 @@
       "category_es": "Proyecto",
       "category_en": "Project",
       "label_ca": "Innovació i coneixement per al sector forestal",
-      "category_ca": "Projecte"
+      "category_ca": "Projecte",
+      "logo": "/uploads/projects/prisma.png",
+      "logo_source": "https://www.prismaforestal.es/wp-content/uploads/2024/05/cropped-logoprisma.png",
+      "kind": "project"
     }
   ]
 }

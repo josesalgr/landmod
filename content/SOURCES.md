@@ -68,3 +68,5 @@ People cards (26 November 2026): short expertise summaries adapted from each mem
 Roboto: self-hosted font files from Google Fonts, weights 300–700. SIL Open Font License included at maqueta/uploads/fonts/OFL-Roboto.txt.
 
 Home photograph: https://www.ctfc.cat/images/linies_paisatges_resilients.jpg, used on the official CTFC Resilient Landscapes page https://www.ctfc.cat/l_paisatges.php. Retained as an institutional context photograph, not presented as a specific LANDMOD field site. Paper previews use individual CSS crops; complete figures remain on entry pages.
+
+Home update (27 November 2026): layout inspired by https://geolabforest.com/; LANDMOD introduction adapted from its CTFC institutional profile. Project logos reproduced from official project websites (RES-MAB, PRISMA, ONEforest) and BIOCONSENT consortium partner EFI. Logo source URLs retained in content/projects.json. Projects include completed collaborations; no current funding status is implied.
