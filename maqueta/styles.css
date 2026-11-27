@@ -217,3 +217,18 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .home-project h3{font-size:18px;color:var(--pine);margin:0 0 8px}.home-project p{font-size:14px;line-height:1.65;color:var(--muted);margin:0}
 @media(max-width:900px){.home-about{gap:28px;grid-template-columns:1fr 2fr}.home-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.home-about{grid-template-columns:1fr;gap:18px;padding-top:30px;padding-bottom:30px}.home-publications,.home-projects{padding-top:32px;padding-bottom:32px}.home-publications .section-head,.home-projects .section-head{align-items:flex-start;gap:15px;flex-direction:column}.recent-publication{grid-template-columns:1fr;gap:8px}.recent-publication h3{font-size:18px}.home-project-grid{gap:12px}.home-project{padding:17px}.project-logo{height:80px;margin-bottom:16px}.project-logo img{max-height:70px}.home-project p{font-size:14px}}
+
+/* A single research introduction and a dedicated project catalogue. */
+#about,.project-detail{scroll-margin-top:100px}
+.home-about .research-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:26px}
+.research-topics h3{font-size:16px;line-height:1.5;margin:0 0 8px;font-weight:500}
+.home-about .research-topics p{font-size:14px;line-height:1.7;color:var(--muted)}
+.projects-page{padding:38px var(--page-gutter) 60px;min-height:60vh}
+.projects-page h1{font-size:clamp(34px,3.7vw,48px);margin:22px 0 16px;font-weight:300}
+.projects-page>.page-intro{max-width:790px;font-size:18px;line-height:1.8}
+.projects-catalogue{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:34px 0}
+.project-detail{display:flex;flex-direction:column;background:#f1f5ef;border:1px solid #dce5d9;border-radius:4px;padding:30px}
+.project-detail>.project-logo{justify-content:flex-start;background:#fff;padding:20px;height:125px;border-radius:3px;margin-bottom:24px}
+.project-detail h2{font-size:25px;font-weight:300;margin:0 0 12px}.project-detail p{font-size:16px;line-height:1.8;margin:0 0 20px}.project-detail a{color:#8a5036;font-size:15px}
+@media(max-width:900px){.home-about .research-topics{grid-template-columns:1fr;gap:18px}}
+@media(max-width:650px){.projects-catalogue{grid-template-columns:1fr}.projects-page{padding-top:28px}.project-detail{padding:23px}}

@@ -22,7 +22,10 @@
       "category_ca": "Projecte",
       "logo": "/uploads/projects/res-mab.png",
       "logo_source": "https://resmab.eu/wp-content/uploads/2024/10/Menu_logo_RESMAB.png",
-      "kind": "project"
+      "kind": "project",
+      "description_en": "RES-MAB explores adaptation to climate change in Mediterranean biosphere reserves. It connects water, energy, food and ecosystems through demonstration sites, modelling and solutions developed with local communities.",
+      "description_es": "RES-MAB explora la adaptación al cambio climático en reservas de la biosfera mediterráneas. Conecta agua, energía, alimentación y ecosistemas mediante lugares de demostración, modelización y soluciones desarrolladas con las comunidades locales.",
+      "description_ca": "RES-MAB explora l’adaptació al canvi climàtic en reserves de la biosfera mediterrànies. Connecta aigua, energia, alimentació i ecosistemes mitjançant espais de demostració, modelització i solucions desenvolupades amb les comunitats locals."
     },
     {
       "name": "BIOCONSENT",
@@ -35,7 +38,10 @@
       "category_ca": "Projecte",
       "logo": "/uploads/projects/bioconsent.avif",
       "logo_source": "https://efi.int/sites/default/files/styles/logo/public/2026-09/bioconsent-logo.png.avif?itok=Q8CAak4k",
-      "kind": "project"
+      "kind": "project",
+      "description_en": "BIOCONSENT brings together ecological, social and policy perspectives to support forest biodiversity conservation and restoration in Europe. It studies the trade-offs and synergies between forests, biodiversity, climate and water.",
+      "description_es": "BIOCONSENT combina perspectivas ecológicas, sociales y políticas para apoyar la conservación y restauración de la biodiversidad forestal en Europa. Estudia los compromisos y las sinergias entre bosques, biodiversidad, clima y agua.",
+      "description_ca": "BIOCONSENT combina perspectives ecològiques, socials i polítiques per donar suport a la conservació i restauració de la biodiversitat forestal a Europa. Estudia els compromisos i les sinergies entre boscos, biodiversitat, clima i aigua."
     },
     {
       "name": "ONEforest",
@@ -48,7 +54,10 @@
       "category_ca": "Resultats de projecte",
       "logo": "/uploads/projects/oneforest.png",
       "logo_source": "https://www.oneforest.eu/sites/default/files/ONEForest%20horizontal%20logo_transparent.png",
-      "kind": "project"
+      "kind": "project",
+      "description_en": "ONEforest develops multi-criteria decision support for forest management. Its approach brings together forest resilience, ecosystem services, stakeholder interests and sustainable wood flows.",
+      "description_es": "ONEforest desarrolla apoyo multicriterio a las decisiones de gestión forestal. Su enfoque combina resiliencia de los bosques, servicios ecosistémicos, intereses de los actores y flujos sostenibles de madera.",
+      "description_ca": "ONEforest desenvolupa suport multicriteri a les decisions de gestió forestal. El seu enfocament combina resiliència dels boscos, serveis ecosistèmics, interessos dels actors i fluxos sostenibles de fusta."
     },
     {
       "name": "PRISMA",
@@ -61,7 +70,10 @@
       "category_ca": "Projecte",
       "logo": "/uploads/projects/prisma.png",
       "logo_source": "https://www.prismaforestal.es/wp-content/uploads/2024/05/cropped-logoprisma.png",
-      "kind": "project"
+      "kind": "project",
+      "description_en": "PRISMA promotes innovation and knowledge exchange in the forestry sector, with a focus on circular bioeconomy, short forest value chains and multifunctional management adapted to climate change.",
+      "description_es": "PRISMA promueve la innovación y el intercambio de conocimiento en el sector forestal, con atención a la bioeconomía circular, las cadenas de valor forestales de circuito corto y la gestión multifuncional adaptada al cambio climático.",
+      "description_ca": "PRISMA promou la innovació i l’intercanvi de coneixement en el sector forestal, amb atenció a la bioeconomia circular, les cadenes de valor forestals de circuit curt i la gestió multifuncional adaptada al canvi climàtic."
     }
   ]
 }
