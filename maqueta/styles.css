@@ -384,3 +384,11 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 /* Narrow mobile screens: keep title and chart inside the content edge */
 @media(max-width:480px){.publications-title-row{gap:12px}.publications-title-row h1{font-size:clamp(26px,7.5vw,32px);min-width:0;flex:1}.publication-chart-mini{width:clamp(105px,32vw,150px);max-width:44%;flex-shrink:1;gap:8px}.mini-chart-year{min-width:0}.mini-chart-bar{max-width:100%}.person-contact{width:36px;height:36px}.person-contacts{gap:8px}}
 @media(hover:none){.news-read-more{opacity:1}}
+
+.project-title-row{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.project-title-row h2{margin:0;min-width:0}
+.project-official-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:30px;height:30px;border-radius:4px;color:#8a5036}
+.project-official-icon:hover{background:#edf2ec;color:var(--pine)}
+.project-official-icon:focus-visible{outline:2px solid #b87754;outline-offset:2px}
+.project-detail>div:last-child>p:last-child{margin-bottom:0}
+@media(pointer:coarse){.project-official-icon{width:40px;height:40px}}
