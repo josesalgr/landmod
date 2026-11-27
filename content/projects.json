@@ -1,15 +1,46 @@
 {
   "projects": [
     {
-      "name": "FORMES",
-      "label_es": "Modelización y planificación forestal",
-      "label_en": "Forest modelling and planning",
-      "url": "https://formes.ctfc.cat/web/home",
-      "category_es": "Herramienta",
-      "category_en": "Tool",
-      "label_ca": "Modelització i planificació forestal",
-      "category_ca": "Eina",
-      "kind": "tool"
+      "name": "PLAN-CAZA",
+      "kind": "project",
+      "url": "https://www.ctfc.cat/es/projecte_plancaza.php",
+      "featured": true,
+      "logo": "",
+      "logo_source": "",
+      "evidence": [
+        "https://www.ctfc.cat/es/projecte_plancaza.php"
+      ],
+      "label_en": "Planning sustainable hunting quotas",
+      "description_en": "Develops planning and multi-objective optimisation methods to allocate hunting quotas for declining migratory species, particularly the European turtle dove. It combines ecological, social and governance criteria with an interactive decision-support platform.",
+      "category_en": "Project",
+      "label_es": "Planificación de cupos de caza sostenibles",
+      "description_es": "Desarrolla métodos de planificación y optimización multiobjetivo para repartir cupos de caza de especies migratorias en declive, especialmente la tórtola europea. Combina criterios ecológicos, sociales y de gobernanza con una plataforma interactiva de apoyo a las decisiones.",
+      "category_es": "Proyecto",
+      "label_ca": "Planificació de quotes de caça sostenibles",
+      "description_ca": "Desenvolupa mètodes de planificació i optimització multiobjectiu per repartir quotes de caça d’espècies migratòries en declivi, especialment la tórtora europea. Combina criteris ecològics, socials i de governança amb una plataforma interactiva de suport a les decisions.",
+      "category_ca": "Projecte"
+    },
+    {
+      "name": "BOSPIR-3D",
+      "kind": "project",
+      "url": "https://www.bospir3d.eu/",
+      "featured": true,
+      "logo": "",
+      "logo_source": "",
+      "evidence": [
+        "https://ari.ad/projectes/bospir-3d",
+        "https://ctfc.cat/docs/26-02-00008%20KTT%20D%2BI%20SPECIALIST%20IN%20GEOMATICA%20.pdf"
+      ],
+      "label_en": "Laser scanning for Pyrenean forest management",
+      "description_en": "Develops and tests forest inventory methods using terrestrial and aerial laser scanning, drones, 3D models and artificial intelligence. The cross-border project connects partners in Spain, France and Andorra to assess operational forest monitoring in mountain terrain.",
+      "category_en": "Project",
+      "label_es": "Escaneo láser para la gestión de los bosques pirenaicos",
+      "description_es": "Desarrolla y prueba métodos de inventario forestal mediante escaneo láser terrestre y aéreo, drones, modelos 3D e inteligencia artificial. El proyecto transfronterizo conecta socios de España, Francia y Andorra para evaluar el seguimiento forestal operativo en terrenos de montaña.",
+      "category_es": "Proyecto",
+      "label_ca": "Escaneig làser per a la gestió dels boscos pirinencs",
+      "description_ca": "Desenvolupa i prova mètodes d’inventari forestal mitjançant escaneig làser terrestre i aeri, drons, models 3D i intel·ligència artificial. El projecte transfronterer connecta socis d’Espanya, França i Andorra per avaluar el seguiment forestal operatiu en terrenys de muntanya.",
+      "category_ca": "Projecte",
+      "period": "2025–2028"
     },
     {
       "name": "RES-MAB",
@@ -25,39 +56,115 @@
       "kind": "project",
       "description_en": "RES-MAB explores adaptation to climate change in Mediterranean biosphere reserves. It connects water, energy, food and ecosystems through demonstration sites, modelling and solutions developed with local communities.",
       "description_es": "RES-MAB explora la adaptación al cambio climático en reservas de la biosfera mediterráneas. Conecta agua, energía, alimentación y ecosistemas mediante lugares de demostración, modelización y soluciones desarrolladas con las comunidades locales.",
-      "description_ca": "RES-MAB explora l’adaptació al canvi climàtic en reserves de la biosfera mediterrànies. Connecta aigua, energia, alimentació i ecosistemes mitjançant espais de demostració, modelització i solucions desenvolupades amb les comunitats locals."
+      "description_ca": "RES-MAB explora l’adaptació al canvi climàtic en reserves de la biosfera mediterrànies. Connecta aigua, energia, alimentació i ecosistemes mitjançant espais de demostració, modelització i solucions desenvolupades amb les comunitats locals.",
+      "featured": true
     },
     {
-      "name": "BIOCONSENT",
-      "label_es": "Decisiones para conservar y restaurar la biodiversidad forestal",
-      "label_en": "Decisions for forest biodiversity conservation and restoration",
-      "url": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
-      "category_es": "Proyecto",
+      "name": "PYSOLO",
+      "kind": "project",
+      "url": "https://pysolo.eu/",
+      "featured": true,
+      "logo": "/uploads/projects/pysolo.png",
+      "logo_source": "https://pysolo.eu/wp-content/uploads/2023/12/cropped-23-11-09_pysolo-logo-web-1.png",
+      "evidence": [
+        "https://pysolo.eu/",
+        "https://www.ctfc.cat/personal24_det.php?id=94"
+      ],
+      "label_en": "Solar-powered biomass pyrolysis",
+      "description_en": "Combines concentrated solar power and biomass pyrolysis to produce renewable fuels and bioproducts. Team contributions include geospatial analysis of forest biomass availability and suitable locations for solar-powered processing facilities.",
       "category_en": "Project",
-      "label_ca": "Decisions per conservar i restaurar la biodiversitat forestal",
-      "category_ca": "Projecte",
-      "logo": "/uploads/projects/bioconsent.avif",
-      "logo_source": "https://efi.int/sites/default/files/styles/logo/public/2026-09/bioconsent-logo.png.avif?itok=Q8CAak4k",
-      "kind": "project",
-      "description_en": "BIOCONSENT brings together ecological, social and policy perspectives to support forest biodiversity conservation and restoration in Europe. It studies the trade-offs and synergies between forests, biodiversity, climate and water.",
-      "description_es": "BIOCONSENT combina perspectivas ecológicas, sociales y políticas para apoyar la conservación y restauración de la biodiversidad forestal en Europa. Estudia los compromisos y las sinergias entre bosques, biodiversidad, clima y agua.",
-      "description_ca": "BIOCONSENT combina perspectives ecològiques, socials i polítiques per donar suport a la conservació i restauració de la biodiversitat forestal a Europa. Estudia els compromisos i les sinergies entre boscos, biodiversitat, clima i aigua."
+      "label_es": "Pirólisis de biomasa con energía solar",
+      "description_es": "Combina energía solar de concentración y pirólisis de biomasa para producir combustibles renovables y bioproductos. El equipo contribuye al análisis geoespacial de la disponibilidad de biomasa forestal y de ubicaciones adecuadas para las instalaciones.",
+      "category_es": "Proyecto",
+      "label_ca": "Piròlisi de biomassa amb energia solar",
+      "description_ca": "Combina energia solar de concentració i piròlisi de biomassa per produir combustibles renovables i bioproductes. L’equip contribueix a l’anàlisi geoespacial de la disponibilitat de biomassa forestal i d’ubicacions adequades per a les instal·lacions.",
+      "category_ca": "Projecte"
     },
     {
-      "name": "ONEforest",
-      "label_es": "Apoyo multicriterio a la gestión forestal",
-      "label_en": "Multi-criteria support for forest management",
-      "url": "https://www.oneforest.eu/",
-      "category_es": "Resultados de proyecto",
-      "category_en": "Project results",
-      "label_ca": "Suport multicriteri a la gestió forestal",
-      "category_ca": "Resultats de projecte",
-      "logo": "/uploads/projects/oneforest.png",
-      "logo_source": "https://www.oneforest.eu/sites/default/files/ONEForest%20horizontal%20logo_transparent.png",
+      "name": "FIRE-RES",
       "kind": "project",
-      "description_en": "ONEforest develops multi-criteria decision support for forest management. Its approach brings together forest resilience, ecosystem services, stakeholder interests and sustainable wood flows.",
-      "description_es": "ONEforest desarrolla apoyo multicriterio a las decisiones de gestión forestal. Su enfoque combina resiliencia de los bosques, servicios ecosistémicos, intereses de los actores y flujos sostenibles de madera.",
-      "description_ca": "ONEforest desenvolupa suport multicriteri a les decisions de gestió forestal. El seu enfocament combina resiliència dels boscos, serveis ecosistèmics, interessos dels actors i fluxos sostenibles de fusta."
+      "url": "https://fire-res.eu/",
+      "featured": false,
+      "logo": "/uploads/projects/fire-res.png",
+      "logo_source": "https://fire-res.eu/wp-content/uploads/2022/01/FireRes_logo_LOW_color_transparent-e1643376185656.png",
+      "evidence": [
+        "https://fire-res.eu/",
+        "https://www.ctfc.cat/personal24_det.php?id=94"
+      ],
+      "label_en": "Innovations for fire-resilient territories",
+      "description_en": "Develops technological and socio-ecological solutions for territories exposed to extreme wildfires. Work involving the team includes geospatial biomass and fuel information to support wildfire simulation and landscape management.",
+      "category_en": "Project",
+      "label_es": "Innovaciones para territorios resilientes al fuego",
+      "description_es": "Desarrolla soluciones tecnológicas y socioecológicas para territorios expuestos a incendios extremos. El trabajo con participación del equipo incluye información geoespacial de biomasa y combustibles para apoyar la simulación de incendios y la gestión del paisaje.",
+      "category_es": "Proyecto",
+      "label_ca": "Innovacions per a territoris resilients al foc",
+      "description_ca": "Desenvolupa solucions tecnològiques i socioecològiques per a territoris exposats a incendis extrems. El treball amb participació de l’equip inclou informació geoespacial de biomassa i combustibles per donar suport a la simulació d’incendis i la gestió del paisatge.",
+      "category_ca": "Projecte"
+    },
+    {
+      "name": "FORESFUTURE",
+      "kind": "project",
+      "url": "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
+      "featured": false,
+      "logo": "",
+      "logo_source": "",
+      "evidence": [
+        "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
+        "https://mediambient.gencat.cat/es/detalls/Noticies/20251030-forestfuture"
+      ],
+      "label_en": "Future scenarios for Catalan forests",
+      "description_en": "Explores how forest management and climate change can shape Catalan forests and their ecosystem services up to 2100. CTFC and CREAF combine forest modelling and management scenarios to inform adaptation decisions.",
+      "category_en": "Project",
+      "label_es": "Escenarios de futuro para los bosques de Cataluña",
+      "description_es": "Explora cómo la gestión forestal y el cambio climático pueden transformar los bosques catalanes y sus servicios ecosistémicos hasta 2100. CTFC y CREAF combinan modelización forestal y escenarios de gestión para orientar las decisiones de adaptación.",
+      "category_es": "Proyecto",
+      "label_ca": "Escenaris de futur per als boscos de Catalunya",
+      "description_ca": "Explora com la gestió forestal i el canvi climàtic poden transformar els boscos catalans i els seus serveis ecosistèmics fins al 2100. CTFC i CREAF combinen modelització forestal i escenaris de gestió per orientar les decisions d’adaptació.",
+      "category_ca": "Projecte"
+    },
+    {
+      "name": "REFORADAPT",
+      "kind": "project",
+      "url": "https://fundacion-biodiversidad.es/proyectos_ficha/recopilacion-de-casos-de-exito-en-restauracion-y-adaptacion-forestal-en-espana-reforadapt/",
+      "featured": false,
+      "logo": "",
+      "logo_source": "",
+      "evidence": [
+        "https://www.ctfc.cat/personal24_det.php?id=204",
+        "https://fundacion-biodiversidad.es/proyectos_ficha/recopilacion-de-casos-de-exito-en-restauracion-y-adaptacion-forestal-en-espana-reforadapt/"
+      ],
+      "label_en": "Learning from forest restoration across Spain",
+      "description_en": "Compiles and synthesises experience from forest restoration and climate adaptation projects across Spain. It examines ecological, social, economic and policy factors associated with success to support future restoration planning.",
+      "category_en": "Project",
+      "label_es": "Aprender de la restauración forestal en España",
+      "description_es": "Recopila y sintetiza experiencias de restauración forestal y adaptación climática en España. Analiza los factores ecológicos, sociales, económicos y políticos asociados al éxito para apoyar la planificación de futuras actuaciones.",
+      "category_es": "Proyecto",
+      "label_ca": "Aprendre de la restauració forestal a Espanya",
+      "description_ca": "Recopila i sintetitza experiències de restauració forestal i adaptació climàtica a Espanya. Analitza els factors ecològics, socials, econòmics i polítics associats a l’èxit per donar suport a la planificació de futures actuacions.",
+      "category_ca": "Projecte",
+      "period": "2023–2025"
+    },
+    {
+      "name": "DecisionES",
+      "kind": "project",
+      "url": "https://decisiones.ctfc.cat/",
+      "featured": false,
+      "logo": "/uploads/projects/decisiones.png",
+      "logo_source": "https://decisiones.ctfc.cat/wp-content/uploads/2022/02/logo_DecisionES_web.png",
+      "evidence": [
+        "https://decisiones.ctfc.cat/contacts/",
+        "https://decisiones.ctfc.cat/models/"
+      ],
+      "label_en": "Decision support for ecosystem services under global change",
+      "description_en": "An international research and staff-exchange network coordinated by CTFC. It connects ecosystem-service models, forest simulators and advanced planning methods to support decisions under global change.",
+      "category_en": "Project",
+      "label_es": "Apoyo a decisiones sobre servicios ecosistémicos ante el cambio global",
+      "description_es": "Red internacional de investigación e intercambio de personal coordinada por el CTFC. Conecta modelos de servicios ecosistémicos, simuladores forestales y métodos avanzados de planificación para apoyar decisiones ante el cambio global.",
+      "category_es": "Proyecto",
+      "label_ca": "Suport a decisions sobre serveis ecosistèmics davant del canvi global",
+      "description_ca": "Xarxa internacional de recerca i intercanvi de personal coordinada pel CTFC. Connecta models de serveis ecosistèmics, simuladors forestals i mètodes avançats de planificació per donar suport a decisions davant del canvi global.",
+      "category_ca": "Projecte",
+      "period": "2021–2026"
     },
     {
       "name": "PRISMA",
@@ -73,7 +180,55 @@
       "kind": "project",
       "description_en": "PRISMA promotes innovation and knowledge exchange in the forestry sector, with a focus on circular bioeconomy, short forest value chains and multifunctional management adapted to climate change.",
       "description_es": "PRISMA promueve la innovación y el intercambio de conocimiento en el sector forestal, con atención a la bioeconomía circular, las cadenas de valor forestales de circuito corto y la gestión multifuncional adaptada al cambio climático.",
-      "description_ca": "PRISMA promou la innovació i l’intercanvi de coneixement en el sector forestal, amb atenció a la bioeconomia circular, les cadenes de valor forestals de circuit curt i la gestió multifuncional adaptada al canvi climàtic."
+      "description_ca": "PRISMA promou la innovació i l’intercanvi de coneixement en el sector forestal, amb atenció a la bioeconomia circular, les cadenes de valor forestals de circuit curt i la gestió multifuncional adaptada al canvi climàtic.",
+      "featured": false
+    },
+    {
+      "name": "BIOCONSENT",
+      "label_es": "Decisiones para conservar y restaurar la biodiversidad forestal",
+      "label_en": "Decisions for forest biodiversity conservation and restoration",
+      "url": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
+      "category_es": "Proyecto",
+      "category_en": "Project",
+      "label_ca": "Decisions per conservar i restaurar la biodiversitat forestal",
+      "category_ca": "Projecte",
+      "logo": "/uploads/projects/bioconsent.avif",
+      "logo_source": "https://efi.int/sites/default/files/styles/logo/public/2026-09/bioconsent-logo.png.avif?itok=Q8CAak4k",
+      "kind": "project",
+      "description_en": "BIOCONSENT brings together ecological, social and policy perspectives to support forest biodiversity conservation and restoration in Europe. It studies the trade-offs and synergies between forests, biodiversity, climate and water.",
+      "description_es": "BIOCONSENT combina perspectivas ecológicas, sociales y políticas para apoyar la conservación y restauración de la biodiversidad forestal en Europa. Estudia los compromisos y las sinergias entre bosques, biodiversidad, clima y agua.",
+      "description_ca": "BIOCONSENT combina perspectives ecològiques, socials i polítiques per donar suport a la conservació i restauració de la biodiversitat forestal a Europa. Estudia els compromisos i les sinergies entre boscos, biodiversitat, clima i aigua.",
+      "featured": false
+    },
+    {
+      "name": "ONEforest",
+      "label_es": "Apoyo multicriterio a la gestión forestal",
+      "label_en": "Multi-criteria support for forest management",
+      "url": "https://www.oneforest.eu/",
+      "category_es": "Resultados de proyecto",
+      "category_en": "Project results",
+      "label_ca": "Suport multicriteri a la gestió forestal",
+      "category_ca": "Resultats de projecte",
+      "logo": "/uploads/projects/oneforest.png",
+      "logo_source": "https://www.oneforest.eu/sites/default/files/ONEForest%20horizontal%20logo_transparent.png",
+      "kind": "project",
+      "description_en": "ONEforest develops multi-criteria decision support for forest management. Its approach brings together forest resilience, ecosystem services, stakeholder interests and sustainable wood flows.",
+      "description_es": "ONEforest desarrolla apoyo multicriterio a las decisiones de gestión forestal. Su enfoque combina resiliencia de los bosques, servicios ecosistémicos, intereses de los actores y flujos sostenibles de madera.",
+      "description_ca": "ONEforest desenvolupa suport multicriteri a les decisions de gestió forestal. El seu enfocament combina resiliència dels boscos, serveis ecosistèmics, interessos dels actors i fluxos sostenibles de fusta.",
+      "featured": false
+    },
+    {
+      "name": "FORMES",
+      "label_es": "Modelización y planificación forestal",
+      "label_en": "Forest modelling and planning",
+      "url": "https://formes.ctfc.cat/web/home",
+      "category_es": "Herramienta",
+      "category_en": "Tool",
+      "label_ca": "Modelització i planificació forestal",
+      "category_ca": "Eina",
+      "kind": "tool",
+      "featured": false
     }
-  ]
+  ],
+  "checked": "2026-11-27"
 }

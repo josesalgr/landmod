@@ -232,3 +232,5 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .project-detail h2{font-size:25px;font-weight:300;margin:0 0 12px}.project-detail p{font-size:16px;line-height:1.8;margin:0 0 20px}.project-detail a{color:#8a5036;font-size:15px}
 @media(max-width:900px){.home-about .research-topics{grid-template-columns:1fr;gap:18px}}
 @media(max-width:650px){.projects-catalogue{grid-template-columns:1fr}.projects-page{padding-top:28px}.project-detail{padding:23px}}
+
+.project-wordmark{font-size:clamp(24px,2.8vw,34px);font-weight:500;letter-spacing:.02em;color:var(--pine);line-height:1.2}.project-detail .project-period{font-size:14px;color:var(--muted);margin:-4px 0 14px}

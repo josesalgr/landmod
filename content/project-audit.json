@@ -1,0 +1,48 @@
+{
+  "checked": "2026-11-27",
+  "method": "CTFC team profiles, institutional project directory, project and consortium websites checked. Team owner confirms PLAN-CAZA and BOSPIR-3D participation. Programme-level CTFC participation alone is not treated as LANDMOD membership.",
+  "added": {
+    "PLAN-CAZA": [
+      "https://www.ctfc.cat/es/projecte_plancaza.php"
+    ],
+    "BOSPIR-3D": [
+      "https://ari.ad/projectes/bospir-3d",
+      "https://ctfc.cat/docs/26-02-00008%20KTT%20D%2BI%20SPECIALIST%20IN%20GEOMATICA%20.pdf"
+    ],
+    "PYSOLO": [
+      "https://pysolo.eu/",
+      "https://www.ctfc.cat/personal24_det.php?id=94"
+    ],
+    "FIRE-RES": [
+      "https://fire-res.eu/",
+      "https://www.ctfc.cat/personal24_det.php?id=94"
+    ],
+    "FORESFUTURE": [
+      "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
+      "https://mediambient.gencat.cat/es/detalls/Noticies/20251030-forestfuture"
+    ],
+    "REFORADAPT": [
+      "https://www.ctfc.cat/personal24_det.php?id=204",
+      "https://fundacion-biodiversidad.es/proyectos_ficha/recopilacion-de-casos-de-exito-en-restauracion-y-adaptacion-forestal-en-espana-reforadapt/"
+    ],
+    "DecisionES": [
+      "https://decisiones.ctfc.cat/contacts/",
+      "https://decisiones.ctfc.cat/models/"
+    ]
+  },
+  "not_imported": [
+    {
+      "name": "EH2LAB",
+      "reason": "A laboratory/initiative, rather than a funded research project."
+    },
+    {
+      "name": "NutriBudget / DELISOIL",
+      "reason": "Mentioned as previous coordination experience in a member biography; current LANDMOD participation unverified."
+    },
+    {
+      "name": "SINTETIC / SUPERB",
+      "reason": "CTFC involvement found, but LANDMOD participation needs a more specific source."
+    }
+  ],
+  "logos": "Official project logos downloaded for FIRE-RES, PYSOLO and DecisionES. PLAN-CAZA, BOSPIR-3D, FORESFUTURE and REFORADAPT use their names until dedicated logos are available. Funder logos and context photos are not substituted for project logos."
+}
