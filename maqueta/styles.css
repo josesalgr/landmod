@@ -397,3 +397,7 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 .project-title-row .project-official-icon{width:auto;height:auto;min-height:30px;gap:4px;padding:2px 0;font-size:13px;font-weight:400;line-height:1.4;color:#8a5036;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
 .project-title-row .project-official-icon:hover{background:transparent;color:var(--pine)}
 @media(pointer:coarse){.project-title-row .project-official-icon{min-height:40px}}
+
+.project-title-row .project-official-icon{background:var(--pine);color:#fff;padding:6px 11px;border-radius:4px;text-decoration:none;font-size:12px;min-height:30px}
+.project-title-row .project-official-icon:hover{background:#265b49;color:#fff}
+@media(pointer:coarse){.project-title-row .project-official-icon{min-height:40px}}
