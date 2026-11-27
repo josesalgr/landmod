@@ -29,3 +29,7 @@ From studio: npm ci; npm run dev. Configure a local basePath override if serving
 ## Publicaciones por DOI
 
 Selecciona Publicaciones · añadir por DOI, crea una ficha, pega el DOI o su enlace y pulsa Recuperar datos. Revisa título, autores, revista, fecha y tipo; selecciona los miembros de LANDMOD y pulsa Publicar. Se consulta Crossref, con DataCite como alternativa. Si el DOI ya existe en el catálogo, la web actualiza la referencia sin duplicarla. Los preprints se identifican por separado. Las referencias antiguas siguen en el catálogo local; no se han migrado al editor.
+
+## Proyectos y Software
+Las fichas se editan en Proyectos y Software, incluidos logos, enlaces y traducciones. Publicar actualiza la web al recargar, sin desplegar código. Inglés es el respaldo cuando falta una traducción. Desactivar «Mostrar en la web» y publicar retira la ficha. Los proyectos mantienen el orden por vigencia y permiten destacar hasta cuatro en el inicio.
+La herramienta «Importar fichas actuales» carga 11 proyectos y 5 herramientas con IDs estables usando createIfNotExists; repetirla no sobrescribe ediciones. Las copias locales sirven de respaldo si Sanity no responde.

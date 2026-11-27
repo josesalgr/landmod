@@ -38,13 +38,30 @@ export function mergeEditorialEntries(existing,incoming){
  }
  return entries;
 }
+export function catalogueFromSanity(doc){
+ if(!doc||!['researchProject','softwareTool'].includes(doc._type)||doc._id?.startsWith('drafts.')||!doc.name?.trim())return null;
+ const project=doc._type==='researchProject',id=doc.catalogId||'sanity-'+doc._id;
+ const result={...doc,id,kind:project?'project':doc.kind==='web'?'web':'r',url:safeURL(doc.url),editorial_source:'sanity',visible:doc.visible!==false,logo:sanityImage(doc.logoImage)||safeURL(doc.logo)};
+ if(doc.logoImage?.asset){const m=/-(\d+)x(\d+)-/.exec(doc.logoImage.asset._ref);if(m){result.logo_size=[+m[1],+m[2]];result.logo_viewbox=[0,0,+m[1],+m[2]];}}
+ for(const field of ['label','description'])for(const l of languages)result[field+'_'+l]=doc[field+'_'+l]?.trim()||doc[field+'_en']||'';
+ for(const field of ['documentation','repository','cran'])result[field]=safeURL(doc[field]);
+ if(doc.institution?.name)result.institution={name:doc.institution.name,url:safeURL(doc.institution.url),logo:sanityImage(doc.institution.logoImage)||safeURL(doc.institution.logo)};
+ else delete result.institution;
+ return result;
+}
+export function mergeCatalogue(existing,incoming,project=false){
+ const key=e=>e.catalogId||e.id||(project?e.name.toLowerCase().replace(/[^a-z0-9]+/g,'-'):e.name);
+ const items=new Map(existing.map((e,i)=>[key(e),{...e,sortOrder:i}]));
+ for(const e of incoming)items.set(key(e),e);
+ return [...items.values()].filter(e=>e.visible!==false).sort((a,b)=>(a.sortOrder??100)-(b.sortOrder??100));
+}
 export async function fetchSanityContent(){
- const query='*[_type in ["newsPost","publication"] && !(_id in path("drafts.**")) && example != true] | order(date desc)';
+ const query='*[_type in ["newsPost","publication","researchProject","softwareTool"] && !(_id in path("drafts.**")) && example != true] | order(date desc)';
  const url=new URL(`https://${projectId}.api.sanity.io/v2025-02-19/data/query/${dataset}`);
  url.searchParams.set('perspective','published');url.searchParams.set('query',query);
  const response=await fetch(url,{signal:AbortSignal.timeout(4000),credentials:'omit',cache:'no-store'});
  if(!response.ok)throw Error('Sanity editorial content unavailable');
  const {result}=await response.json();if(!Array.isArray(result))throw Error('Invalid Sanity response');
- return result.map(doc=>doc._type==='publication'?publicationFromSanity(doc):newsFromSanity(doc)).filter(Boolean);
+ return result.map(doc=>doc._type==='publication'?publicationFromSanity(doc):['researchProject','softwareTool'].includes(doc._type)?catalogueFromSanity(doc):newsFromSanity(doc)).filter(Boolean);
 }
-export async function fetchSanityNews(){return (await fetchSanityContent()).filter(e=>e.type!=='paper');}
+export async function fetchSanityNews(){return (await fetchSanityContent()).filter(e=>['note','conference','activity','blog'].includes(e.type));}

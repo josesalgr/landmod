@@ -1,0 +1,5 @@
+import React,{useState} from 'react'
+import {useClient} from 'sanity'
+import {Box,Button,Card,Stack,Text} from '@sanity/ui'
+import seed from '../catalogue-seed.json'
+export function ImportCatalogues(){const client=useClient({apiVersion:'2025-02-19'}),[status,setStatus]=useState(''),[busy,setBusy]=useState(false);return <Box padding={5}><Card padding={4}><Stack space={4}><Text size={2} weight="bold">Importar las fichas actuales</Text><Text>Importa los proyectos y software de LANDMOD. Conserva las fichas que ya existen en Sanity y no sobrescribe las modificaciones del equipo.</Text><Button text="Importar Projects y Software" disabled={busy} onClick={async()=>{setBusy(true);try{let tx=client.transaction();for(const doc of seed)tx=tx.createIfNotExists(doc);await tx.commit();setStatus('Importación completada: '+seed.length+' fichas disponibles en Proyectos y Software.')}catch(e){setStatus('No se pudo importar: '+e.message)}finally{setBusy(false)}}}/><Text role="status">{status}</Text></Stack></Card></Box>}
