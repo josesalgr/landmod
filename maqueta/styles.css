@@ -414,3 +414,10 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 .software-actions a:hover{background:#265b49;color:#fff}
 .software-actions a:focus-visible{outline:2px solid #b87754;outline-offset:3px}
 @media(pointer:coarse){.software-actions a{min-height:40px}.software-partner-logo{min-height:40px}}
+
+/* Primary home links share the compact filled button style */
+.home-layout a.home-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:var(--pine);color:#fff;border:1px solid var(--pine);border-radius:4px;padding:9px 15px;font-size:14px;font-weight:400;line-height:1.4;text-decoration:none;white-space:normal;text-align:center;flex-shrink:0}
+.home-layout a.home-button:hover{background:#265b49;border-color:#265b49;color:#fff}
+.home-layout a.home-button:focus-visible{outline:2px solid #b87754;outline-offset:3px}
+.home-intro-links{align-items:center}
+@media(max-width:650px){.home-layout a.home-button{min-height:42px}.home-layout .section-head{flex-wrap:wrap;gap:16px}}
