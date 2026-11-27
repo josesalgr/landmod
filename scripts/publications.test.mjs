@@ -8,3 +8,17 @@ test('audited catalogue contains unique 2024–2026 DOI records and team evidenc
 test('Inmaculada records retain verified article, preprint and poster classifications',async()=>{const c=JSON.parse(await fs.readFile(path.join(root,'content/publications.json'),'utf8'));const records=c.entries.filter(e=>e.team_members.includes('Inmaculada Navarro Ramírez'));assert.equal(records.length,8);assert.equal(records.filter(e=>e.publication_kind==='article').length,6);assert.equal(records.filter(e=>e.publication_kind==='preprint').length,1);assert.equal(records.find(e=>e.doi==='10.1016/j.jnc.2025.127068').date.slice(0,4),'2026');});
 
 test('superseded preprints are absent while published articles are retained',async()=>{const c=JSON.parse(await fs.readFile(path.join(root,'content/publications.json'),'utf8'));const audit=JSON.parse(await fs.readFile(path.join(root,'content/publication-audit.json'),'utf8'));assert.equal(audit.preprint_review.length,13);for(const r of audit.preprint_review.filter(r=>r.status==='removed_superseded')){assert.ok(!c.entries.some(e=>e.doi.toLowerCase()===r.preprint_doi.toLowerCase()));assert.ok(c.entries.some(e=>e.doi===r.published_doi&&e.publication_kind==='article'));}assert.equal(c.entries.filter(e=>e.publication_kind==='preprint').length,8);});
+
+// Exercise the browser chart calculation at the year boundary without changing the machine clock.
+test('annual chart adds empty years automatically using the Catalonia calendar',async()=>{
+ const {default:vm}=await import('node:vm');
+ const source=await fs.readFile(path.join(root,'maqueta/app.js'),'utf8');
+ const calculation=source.slice(source.indexOf('function annualPaperCounts('),source.indexOf('function publicationChart('));
+ const count=vm.runInNewContext('('+calculation.trim()+')');
+ const entries=[{id:'a',type:'paper',date:'2024-01-01',doi:'10.1234/a'},{id:'duplicate',type:'paper',date:'2024-01-01',doi:'10.1234/A'},{id:'preprint',type:'paper',date:'2027-01-01',paper_status:'preprint'}];
+ const rows=count(entries,new Date('2026-12-31T23:00:00Z'));
+ assert.deepEqual(Array.from(rows,r=>r.year),['2024','2025','2026','2027']);
+ assert.deepEqual(Array.from(rows,r=>r.count),[1,0,0,0]);
+ assert.equal(count([],new Date('2026-12-31T22:59:59Z')).at(-1).year,'2026');
+ assert.equal(count([],new Date('2030-06-01T00:00:00Z')).at(-1).year,'2030');
+});
