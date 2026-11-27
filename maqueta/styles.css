@@ -316,3 +316,11 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .institution-logo img{display:block;width:110px;height:32px;object-fit:contain}
 .institution-logo-dark{background:var(--pine)}
 .institution-logo:hover{outline:1px solid #b87754}
+
+/* Software: soft green canvas with white cards, matching the home */
+.software-page{background:#edf2ec}
+.software-list>.software-item{background:#fff;border-color:#d9e2d6;box-shadow:0 2px 8px #153f3405}
+.software-logo-panel{background:#fff;border-bottom-color:#edf1e9}
+.software-content{background:#fff}
+.software-page .filters button:not([aria-pressed=true]){background:#fff;border-color:#d9e2d6}
+.software-attribution,.software-credits{border-top-color:#e2e8df}
