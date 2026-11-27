@@ -151,6 +151,23 @@
       "expertise_source": "https://www.ctfc.cat/personal24_det.php?id=39"
     },
     {
+      "name": "Inmaculada Navarro Ramírez",
+      "role_en": "Researcher · collaborating with LANDMOD",
+      "role_es": "Investigadora · colaboradora de LANDMOD",
+      "role_ca": "Investigadora · col·laboradora de LANDMOD",
+      "image": "/uploads/team/295.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=295",
+      "email": "inmaculada.navarro@ctfc.cat",
+      "linkedin": "https://es.linkedin.com/in/inmaculada-navarro-ram%C3%ADrez-a0606a173",
+      "orcid": "https://orcid.org/0000-0001-9474-3574",
+      "expertise_en": "Ecological and Bayesian modelling, wildlife conservation and landscape connectivity.",
+      "expertise_es": "Modelización ecológica y bayesiana, conservación de fauna y conectividad del paisaje.",
+      "expertise_ca": "Modelització ecològica i bayesiana, conservació de fauna i connectivitat del paisatge.",
+      "expertise_source": "https://www.ctfc.cat/personal24_det.php?id=295",
+      "membership_source": "LANDMOD team update confirmed by the site owner, 2026-11-27",
+      "institutional_group_en": "Agricultural ecosystems and game species conservation · CTFC"
+    },
+    {
       "name": "Lukman Yazid",
       "role_es": "Especialista KTT",
       "role_en": "KTT specialist",
@@ -182,5 +199,5 @@
     }
   ],
   "source": "https://www.ctfc.cat/personal24_lindet.php?id=41",
-  "checked": "2026-11-25"
+  "checked": "2026-11-27"
 }
