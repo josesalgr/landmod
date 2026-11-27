@@ -4,16 +4,36 @@
       "id": "formes",
       "name": "FORMES",
       "kind": "web",
-      "description_es": "Plataforma de modelización y planificación forestal multiobjetivo. Acceso al sistema de proyección destacado por LANDMOD.",
-      "description_en": "A platform for multi-objective forest modelling and planning. Access the projection system highlighted by LANDMOD.",
-      "credit_es": "Herramienta destacada en la ficha institucional de LANDMOD · CTFC.",
-      "credit_en": "Tool highlighted in LANDMOD’s institutional profile · CTFC.",
+      "description_es": "Explora escenarios de gestión forestal y clima, proyectando la dinámica de los bosques y sus servicios ecosistémicos para apoyar la planificación multiobjetivo.",
+      "description_en": "Explore forest management and climate scenarios, projecting forest dynamics and ecosystem services to support multi-objective planning.",
+      "credit_es": "Plataforma de modelización y planificación forestal · CTFC.",
+      "credit_en": "Forest modelling and planning platform · CTFC.",
       "url": "https://formes.ctfc.cat/web/home",
       "repository": "",
-      "documentation": "",
-      "source": "https://www.ctfc.cat/personal24_lindet.php?id=41",
-      "description_ca": "Plataforma de modelització i planificació forestal multiobjectiu. Accés al sistema de projecció destacat per LANDMOD.",
-      "credit_ca": "Eina destacada a la fitxa institucional de LANDMOD · CTFC."
+      "documentation": "https://ctfc.cat/en/formes.php",
+      "source": "https://ctfc.cat/en/formes.php",
+      "description_ca": "Explora escenaris de gestió forestal i clima, projectant la dinàmica dels boscos i els serveis ecosistèmics per donar suport a la planificació multiobjectiu.",
+      "credit_ca": "Plataforma de modelització i planificació forestal · CTFC.",
+      "logo": "/uploads/software/formes.png",
+      "logo_source": "https://formes.ctfc.cat/web/assets/logo_FORMES_green_2-DxoJ5V5y.png"
+    },
+    {
+      "id": "multiscape",
+      "name": "multiscape",
+      "kind": "r",
+      "url": "https://josesalgr.github.io/multiscape/",
+      "repository": "https://github.com/josesalgr/multiscape",
+      "documentation": "https://josesalgr.github.io/multiscape/",
+      "source": "https://cran.r-project.org/package=multiscape",
+      "cran": "https://cran.r-project.org/package=multiscape",
+      "logo": "/uploads/software/multiscape.png",
+      "logo_source": "https://josesalgr.github.io/multiscape/logo.png",
+      "description_en": "Design spatial plans with multiple management actions and objectives. Compare trade-offs, spatial connectivity and fragmentation using exact optimisation.",
+      "description_es": "Diseña planes espaciales con múltiples acciones de gestión y objetivos. Compara compromisos, conectividad y fragmentación mediante optimización exacta.",
+      "description_ca": "Dissenya plans espacials amb múltiples accions de gestió i objectius. Compara compromisos, connectivitat i fragmentació mitjançant optimització exacta.",
+      "credit_en": "José Salgado-Rojas · Matías Moreno-Faguett · Victoria Madrid-Ayala · Sara Pineda-Zapata · Núria Aquilué.",
+      "credit_es": "José Salgado-Rojas · Matías Moreno-Faguett · Victoria Madrid-Ayala · Sara Pineda-Zapata · Núria Aquilué.",
+      "credit_ca": "José Salgado-Rojas · Matías Moreno-Faguett · Victoria Madrid-Ayala · Sara Pineda-Zapata · Núria Aquilué."
     },
     {
       "id": "remains",
@@ -43,7 +63,10 @@
       "documentation": "https://emf-creaf.github.io/medfate/",
       "source": "https://emf.creaf.cat/software/medfate/",
       "description_ca": "Simulació del funcionament i la dinàmica dels boscos mediterranis: balanç hídric, processos de les plantes, creixement i gestió.",
-      "credit_ca": "Desenvolupat i mantingut per EMF/CREAF, amb finançament del CSIC i col·laboració del CTFC i altres institucions."
+      "credit_ca": "Desenvolupat i mantingut per EMF/CREAF, amb finançament del CSIC i col·laboració del CTFC i altres institucions.",
+      "logo": "/uploads/software/medfate.png",
+      "logo_source": "https://emf-creaf.github.io/medfate/logo.png",
+      "cran": "https://cran.r-project.org/package=medfate"
     },
     {
       "id": "medfateland",
@@ -58,7 +81,10 @@
       "documentation": "https://emf-creaf.github.io/medfateland/",
       "source": "https://emf.creaf.cat/software/medfateland/",
       "description_ca": "Estén medfate a paisatges i conques. Permet simular processos forestals en un context espacial i abordar aplicacions ecohidrològiques.",
-      "credit_ca": "Desenvolupat i mantingut per EMF/CREAF en col·laboració amb altres institucions. La fitxa d’autoria inclou Núria Aquilué (CTFC)."
+      "credit_ca": "Desenvolupat i mantingut per EMF/CREAF en col·laboració amb altres institucions. La fitxa d’autoria inclou Núria Aquilué (CTFC).",
+      "logo": "/uploads/software/medfateland.png",
+      "logo_source": "https://emf-creaf.github.io/medfateland/logo.png",
+      "cran": "https://cran.r-project.org/package=medfateland"
     }
   ]
 }

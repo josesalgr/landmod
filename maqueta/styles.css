@@ -284,3 +284,28 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .publication-controls{scroll-margin-top:100px}
 @media(max-width:480px){.publications-title-row{gap:12px}.publications-title-row h1{font-size:32px}.publication-chart-mini{width:160px;gap:10px;height:106px}.mini-chart-track{height:70px}.mini-chart-bar{width:29px}}
 @media(prefers-reduced-motion:reduce){.mini-chart-bar{transition:none}}
+
+/* Software catalogue with official tool identities */
+.software-page{max-width:none}
+.software-page>.page-intro{font-size:18px;max-width:720px;margin-top:12px}
+.software-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:28px}
+.software-item{display:flex;flex-direction:column;gap:0;padding:0;overflow:hidden;border:1px solid #dce5d9;background:#f1f5ef;border-radius:5px;transition:border-color .2s,box-shadow .2s}
+.software-item:hover{border-color:#b87754;box-shadow:0 6px 20px #153f340a}
+.software-logo-panel{height:185px;display:flex;align-items:center;justify-content:center;background:#fff;padding:20px;border-bottom:1px solid #e3e9df}
+.software-logo-panel img{width:auto;max-width:100%;height:145px;object-fit:contain}
+.software-logo-wide img{width:100%;height:auto;max-height:120px}
+.software-wordmark{font-size:31px;letter-spacing:.06em;font-weight:500;color:var(--pine)}
+.software-content{display:flex;flex-direction:column;flex:1;padding:24px}
+.software-item .software-kind{font-size:12px;line-height:1;letter-spacing:.06em;color:#8a5036;margin:0 0 10px}
+.software-item h2{font-size:27px;font-weight:400;margin:0 0 12px;color:var(--pine)}
+.software-item .software-description{font-size:16px;line-height:1.65;margin:0 0 22px}
+.software-actions{display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:auto;padding-top:4px}
+.software-actions a{font-size:14px;color:#8a5036;text-underline-offset:4px}
+.software-credits{border-top:1px solid #dae3d6;margin-top:22px;padding-top:13px}
+.software-credits summary{font-size:13px;color:#607165;cursor:pointer}
+.software-item .software-credits p{font-size:13px;line-height:1.65;margin:12px 0 0}
+@media(max-width:1000px){.software-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.software-list{grid-template-columns:1fr}.software-logo-panel{height:165px}.software-logo-panel img{height:130px}.software-logo-wide img{height:auto;max-width:290px}.software-content{padding:22px}}
+@media(prefers-reduced-motion:reduce){.software-item{transition:none}}
+
+.software-list>.software-item{align-items:stretch}
