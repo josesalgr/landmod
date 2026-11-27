@@ -5,8 +5,8 @@
       "kind": "project",
       "url": "https://www.ctfc.cat/es/projecte_plancaza.php",
       "featured": true,
-      "logo": "",
-      "logo_source": "",
+      "logo": "/uploads/projects/plan-caza.png",
+      "logo_source": "Logo supplied by the LANDMOD team",
       "evidence": [
         "https://www.ctfc.cat/es/projecte_plancaza.php"
       ],
