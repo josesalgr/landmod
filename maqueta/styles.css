@@ -376,8 +376,7 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 .software-page .filters,.news-archive-canvas .filters{margin:24px 0 0}
 .software-list,.news-archive-canvas .news-list{margin-top:24px}
 .publications-title-row{align-items:center;margin-bottom:24px;min-height:80px}
-.publication-chart-mini{height:88px;margin-top:0;padding-top:16px}
-.mini-chart-track{height:56px}
+.publication-chart-mini{margin-top:0}
 .catalogue-canvas .publication-controls{margin:0 0 16px}
 .catalogue-canvas .publication-year{margin-top:24px}
 @media(max-width:760px){.projects-catalogue,.catalogue-canvas .people,.software-list,.news-archive-canvas .news-list{margin-top:20px}.software-page .filters,.news-archive-canvas .filters{margin-top:20px}.publications-title-row{margin-bottom:20px}}
