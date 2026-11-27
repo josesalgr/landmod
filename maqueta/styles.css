@@ -324,3 +324,14 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .software-content{background:#fff}
 .software-page .filters button:not([aria-pressed=true]){background:#fff;border-color:#d9e2d6}
 .software-attribution,.software-credits{border-top-color:#e2e8df}
+
+/* Shared catalogue palette: green canvas and white content cards */
+.projects-page,main>.inner-section.catalogue-canvas{background:#edf2ec}
+.projects-catalogue>.project-detail,.catalogue-canvas .person,.catalogue-canvas .publication-record{background:#fff;border:1px solid #d9e2d6;border-radius:5px;box-shadow:0 2px 8px #153f3405}
+.catalogue-canvas .person{padding:24px;gap:22px}
+.catalogue-canvas .people{gap:24px}
+.catalogue-canvas .publication-record{padding:22px 26px;margin:0 0 14px}
+.catalogue-canvas .publication-controls{background:#fff;border:1px solid #d9e2d6}
+.catalogue-canvas .publication-year>h2{border-bottom-color:#cbd8c8}
+.project-detail>.project-logo{border-bottom:1px solid #edf1e9}
+@media(max-width:650px){.catalogue-canvas .person{padding:20px;gap:16px}.catalogue-canvas .publication-record{padding:20px}}
