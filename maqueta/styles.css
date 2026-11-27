@@ -392,3 +392,8 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 .project-official-icon:focus-visible{outline:2px solid #b87754;outline-offset:2px}
 .project-detail>div:last-child>p:last-child{margin-bottom:0}
 @media(pointer:coarse){.project-official-icon{width:40px;height:40px}}
+
+.project-title-row{flex-wrap:wrap;gap:6px 12px}
+.project-title-row .project-official-icon{width:auto;height:auto;min-height:30px;gap:4px;padding:2px 0;font-size:13px;font-weight:400;line-height:1.4;color:#8a5036;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.project-title-row .project-official-icon:hover{background:transparent;color:var(--pine)}
+@media(pointer:coarse){.project-title-row .project-official-icon{min-height:40px}}
