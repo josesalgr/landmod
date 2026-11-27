@@ -427,3 +427,13 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 header .team-access{color:#d7e4db;font-size:12px;white-space:nowrap;text-decoration:none;margin-left:8px;padding-left:12px;border-left:1px solid #ffffff40}header .team-access:hover{color:#efc4aa;text-decoration:underline}@media(max-width:400px){header .team-access{font-size:11px;margin-left:3px;padding-left:7px}}
 
 header .team-access{display:inline-flex;align-items:center;gap:6px;min-height:32px}header .team-access svg{width:19px;height:19px;flex:none}@media(max-width:760px){header .team-access{min-width:36px;min-height:36px;justify-content:center;padding-left:9px;margin-left:4px}header .team-access span{display:none}}
+
+/* Shared initial loading state for every public section. */
+body.site-loading{background:#eef4ef}
+.site-loader{display:grid;place-items:center;min-height:100vh;min-height:100svh;max-width:none;margin:0;padding:24px;text-align:center;color:var(--pine,#153f34)}
+.site-loader p{margin:16px 0 0;font-size:14px;letter-spacing:.03em;color:var(--pine,#153f34)}
+.loading-dots{display:flex;align-items:center;justify-content:center;gap:9px;height:24px}
+.loading-dots span{display:block;width:9px;height:9px;border-radius:50%;background:var(--pine,#153f34);animation:landmod-loading 1.2s ease-in-out infinite}
+.loading-dots span:nth-child(2){animation-delay:.16s}.loading-dots span:nth-child(3){animation-delay:.32s}
+@keyframes landmod-loading{0%,70%,100%{transform:translateY(0);opacity:.4}35%{transform:translateY(-6px);opacity:1}}
+@media(prefers-reduced-motion:reduce){.loading-dots span{animation:none;opacity:1}}
