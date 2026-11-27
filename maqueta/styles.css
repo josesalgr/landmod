@@ -335,3 +335,13 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .catalogue-canvas .publication-year>h2{border-bottom-color:#cbd8c8}
 .project-detail>.project-logo{border-bottom:1px solid #edf1e9}
 @media(max-width:650px){.catalogue-canvas .person{padding:20px;gap:16px}.catalogue-canvas .publication-record{padding:20px}}
+
+/* News archive shares the catalogue canvas and card treatment */
+main.home-layout>.inner-section.news-archive-canvas{padding:38px var(--page-gutter) 58px;background:#edf2ec}
+.news-archive-canvas>.latest-news{padding:0;background:transparent;border:0}
+.news-archive-canvas .latest-news h1{font-size:clamp(34px,3.7vw,48px);font-weight:300;line-height:1.15;color:var(--pine);margin:0 0 16px}
+.news-archive-canvas .news-item{background:#fff;border:1px solid #d9e2d6;border-radius:5px;box-shadow:0 2px 8px #153f3405}
+.news-archive-canvas .news-list{gap:24px}
+.news-archive-canvas .filters button:not([aria-pressed=true]){background:#fff;border-color:#d9e2d6}
+.projects-page h1{margin-top:0}
+@media(max-width:760px){main.home-layout>.inner-section.news-archive-canvas{padding-top:28px;padding-bottom:38px}}
