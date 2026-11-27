@@ -239,3 +239,5 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .plan-caza-logo-window{display:block;width:96px;aspect-ratio:465/442;overflow:hidden;flex-shrink:0}
 .plan-caza-logo-window img{width:100%!important;height:auto!important;max-height:none!important;max-width:none!important;display:block}
 .project-detail .plan-caza-logo-window{width:110px}
+
+.project-detail>.project-logo-dark,.home-project>.project-logo-dark{background:var(--pine);justify-content:center}.project-logo-dark img{max-width:100%;object-fit:contain}

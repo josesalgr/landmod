@@ -106,11 +106,12 @@
       "kind": "project",
       "url": "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
       "featured": false,
-      "logo": "",
-      "logo_source": "",
+      "logo": "/uploads/projects/foresfuture.png",
+      "logo_source": "https://www.creaf.cat/sites/default/files/2025-10/forestfuture-programa_06_171025.pdf",
       "evidence": [
         "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
-        "https://mediambient.gencat.cat/es/detalls/Noticies/20251030-forestfuture"
+        "https://mediambient.gencat.cat/es/detalls/Noticies/20251030-forestfuture",
+        "https://www.creaf.cat/sites/default/files/2025-10/forestfuture-programa_06_171025.pdf"
       ],
       "label_en": "Future scenarios for Catalan forests",
       "description_en": "Explores how forest management and climate change can shape Catalan forests and their ecosystem services up to 2100. CTFC and CREAF combine forest modelling and management scenarios to inform adaptation decisions.",
@@ -120,7 +121,8 @@
       "category_es": "Proyecto",
       "label_ca": "Escenaris de futur per als boscos de Catalunya",
       "description_ca": "Explora com la gestió forestal i el canvi climàtic poden transformar els boscos catalans i els seus serveis ecosistèmics fins al 2100. CTFC i CREAF combinen modelització forestal i escenaris de gestió per orientar les decisions d’adaptació.",
-      "category_ca": "Projecte"
+      "category_ca": "Projecte",
+      "logo_theme": "dark"
     },
     {
       "name": "REFORADAPT",
