@@ -25,3 +25,7 @@ The browser uses only the public published-perspective read API. Writes require 
 ## Development
 
 From studio: npm ci; npm run dev. Configure a local basePath override if serving independently. Production basePath is /landmod/editor.
+
+## Publicaciones por DOI
+
+Selecciona Publicaciones · añadir por DOI, crea una ficha, pega el DOI o su enlace y pulsa Recuperar datos. Revisa título, autores, revista, fecha y tipo; selecciona los miembros de LANDMOD y pulsa Publicar. Se consulta Crossref, con DataCite como alternativa. Si el DOI ya existe en el catálogo, la web actualiza la referencia sin duplicarla. Los preprints se identifican por separado. Las referencias antiguas siguen en el catálogo local; no se han migrado al editor.
