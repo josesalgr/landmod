@@ -19,8 +19,9 @@
       "institution": {
         "name": "CTFC",
         "url": "https://www.ctfc.cat/",
-        "logo": "/uploads/identity/ctfc.png",
-        "theme": "dark"
+        "logo": "/uploads/identity/ctfc-green-team.png",
+        "theme": "light",
+        "logo_source": "Official CTFC logo supplied by the LANDMOD team"
       }
     },
     {

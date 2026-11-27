@@ -401,3 +401,16 @@ body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:va
 .project-title-row .project-official-icon{background:var(--pine);color:#fff;padding:6px 11px;border-radius:4px;text-decoration:none;font-size:12px;min-height:30px}
 .project-title-row .project-official-icon:hover{background:#265b49;color:#fff}
 @media(pointer:coarse){.project-title-row .project-official-icon{min-height:40px}}
+
+/* Compact software actions and visible institutional attribution */
+.software-title-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.software-title-row h2{margin:0}
+.software-partner-logo{display:inline-flex;align-items:center;min-height:36px;padding:2px 0;flex-shrink:0;border-radius:3px}
+.software-partner-logo img{display:block;width:86px;height:29px;object-fit:contain}
+.software-partner-logo:hover{opacity:.75}
+.software-partner-logo:focus-visible{outline:2px solid #b87754;outline-offset:4px}
+.software-actions{gap:8px;padding-top:0}
+.software-actions a{display:inline-flex;align-items:center;justify-content:center;background:var(--pine);color:#fff;padding:6px 11px;border-radius:4px;text-decoration:none;font-size:12px;min-height:30px;line-height:1.4}
+.software-actions a:hover{background:#265b49;color:#fff}
+.software-actions a:focus-visible{outline:2px solid #b87754;outline-offset:3px}
+@media(pointer:coarse){.software-actions a{min-height:40px}.software-partner-logo{min-height:40px}}
