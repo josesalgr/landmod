@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node --test scripts/content.test.mjs scripts/publications.test.mjs scripts/sanity-news.test.mjs scripts/sanity-publications.test.mjs scripts/sanity-catalogues.test.mjs"
+    "test": "node --test scripts/content.test.mjs scripts/publications.test.mjs scripts/sanity-news.test.mjs scripts/sanity-publications.test.mjs scripts/sanity-catalogues.test.mjs scripts/sanity-people.test.mjs"
   },
   "dependencies": {
     "decap-cms": "3.18.0",

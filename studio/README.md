@@ -33,3 +33,6 @@ Selecciona Publicaciones · añadir por DOI, crea una ficha, pega el DOI o su en
 ## Proyectos y Software
 Las fichas se editan en Proyectos y Software, incluidos logos, enlaces y traducciones. Publicar actualiza la web al recargar, sin desplegar código. Inglés es el respaldo cuando falta una traducción. Desactivar «Mostrar en la web» y publicar retira la ficha. Los proyectos mantienen el orden por vigencia y permiten destacar hasta cuatro en el inicio.
 La herramienta «Importar fichas actuales» carga 11 proyectos y 5 herramientas con IDs estables usando createIfNotExists; repetirla no sobrescribe ediciones. Las copias locales sirven de respaldo si Sanity no responde.
+
+## People
+People · Equipo permite crear, editar, ordenar y ocultar miembros. Incluye fotos con punto de interés, perfil, correo público, LinkedIn, ORCID, puesto y especialidades en inglés, español y catalán. Publicar actualiza la web al recargar. La importación inicial añade 13 miembros con IDs estables y no sobrescribe cambios posteriores.
