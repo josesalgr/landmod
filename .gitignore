@@ -10,3 +10,8 @@ maqueta/admin/config.json
 !.env.example
 studio/.sanity/
 studio/dist/
+
+studio/node_modules/
+studio/dist/
+studio/.sanity/
+studio/.env.local

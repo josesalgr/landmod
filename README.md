@@ -1,3 +1,9 @@
+## Estado actual de publicación y edición
+
+Web: https://josesalgr.github.io/landmod/ · Repositorio: josesalgr/landmod.
+News incorpora entradas publicadas en Sanity (8wkx4imp / editorial-test), con el catálogo local como respaldo. Borradores y contenido de prueba no aparecen. El editor se construye en GitHub Actions y se sirve en /landmod/editor/; /admin/ redirige a ese panel. Configuración de acceso inicial y guía: [studio/README.md](studio/README.md).
+Los demás catálogos siguen en archivos del repositorio. Las instrucciones antiguas de Decap que siguen abajo corresponden a la primera maqueta.
+
 # LANDMOD · Web y gestor de contenidos
 
 Sitio bilingüe con noticias, publicaciones, actividades y blog. Complementa la ficha institucional del CTFC, donde se mantienen personas, líneas y proyectos.

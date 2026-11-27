@@ -25,6 +25,14 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm test
       - run: npm run build
+      - name: Install editorial studio
+        run: npm ci --ignore-scripts --prefix studio
+      - name: Build editorial studio
+        working-directory: studio
+        run: node node_modules/sanity/bin/sanity build ../dist/editor --yes
+        env:
+          SANITY_STUDIO_PROJECT_ID: 8wkx4imp
+          SANITY_STUDIO_DATASET: editorial-test
       - run: node scripts/prepare-pages.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

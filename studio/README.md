@@ -1,0 +1,27 @@
+# LANDMOD · News editor
+
+Project: `8wkx4imp`. Dataset: `editorial-test` (public). Never store private information here, including in drafts.
+
+Published Studio: https://josesalgr.github.io/landmod/editor/
+The footer Team access link redirects here.
+
+## Publishing
+
+1. Sign in with the same Sanity account/method used to join the project.
+2. Open Noticias y actividades and create a document.
+3. In Datos e imagen, choose category/date and upload an image; add its credit.
+4. In English, enter title, short summary and body. Spanish and Catalan are optional and fall back to English.
+5. Drafts save automatically. Click Publish when ready. Reload the website to see the update; no GitHub deployment is necessary for editorial changes.
+6. Contenido de prueba excludes an entry from the public website even if published.
+
+The existing file-based news remain as a fallback. Sanity adds new editorial entries. Current news have not been migrated and other catalogues remain file-based.
+
+## Initial setup
+
+In Sanity Manage → API → CORS origins, allow `https://josesalgr.github.io` with credentials, since this is the Studio hosting origin. Allow local development origins only if needed. Invite editors via project Members; never share passwords or put write tokens in the website.
+
+The browser uses only the public published-perspective read API. Writes require Sanity authentication in Studio. The Studio is built in GitHub Actions and hosted on GitHub Pages; only published News are read live.
+
+## Development
+
+From studio: npm ci; npm run dev. Configure a local basePath override if serving independently. Production basePath is /landmod/editor.
