@@ -1,14 +1,14 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "counts": {
-    "article": 67,
-    "chapter": 2,
-    "conference": 20,
-    "preprint": 12,
+    "article": 73,
     "dataset": 13,
     "software": 3,
-    "report": 1,
-    "other": 2
+    "preprint": 13,
+    "conference": 20,
+    "other": 3,
+    "chapter": 2,
+    "report": 1
   },
   "coverage": [
     {
@@ -114,6 +114,15 @@
       ],
       "count": 4,
       "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Inmaculada Navarro Ramírez",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=295",
+      "orcid": [
+        "https://orcid.org/0000-0001-9474-3574"
+      ],
+      "count": 8,
+      "status": "CTFC, public ORCID and OpenAlex checked; six journal articles, one preprint and one poster verified through Crossref/DataCite. Citation year used; olive-grove article is 2026 although first online in 2025."
     }
   ],
   "excluded": [
@@ -144,6 +153,13 @@
       "reason": "Supplement, peer review or duplicate version"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "name": "Inmaculada Navarro Ramírez",
+      "title": "Towards the conservation of the Bearded Vulture (Gypaetus barbatus) in the Iberian Peninsula: a modeling approach",
+      "url": "https://hdl.handle.net/10630/39994",
+      "reason": "2025 doctoral thesis listed on ORCID. Repository returned HTTP 403; complete bibliographic record not independently verified, so not imported."
+    }
+  ],
   "scope": "Current team members regardless of affiliation at publication. Print/citation year used where provided; online dates can differ. Distinct preprint and journal DOIs retained as labelled versions. DOI deduplication, not a guarantee that every output has been indexed. Datasets, software and reports included separately. Reports without DOI and theses without verified bibliographic records remain outside the imported catalogue."
 }

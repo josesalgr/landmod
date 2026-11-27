@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "scope": "Current LANDMOD members; citation years 2024–2026; articles and other DOI-registered research outputs. Preprints kept separately from journal versions.",
   "entries": [
     {
@@ -1117,6 +1117,41 @@
       ]
     },
     {
+      "id": "catalogue-650b33a314a59608",
+      "type": "paper",
+      "publication_kind": "article",
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "title": {
+        "en": "Linking landscapes: analyzing corridors for bearded vultures in the Iberian Peninsula",
+        "es": "Linking landscapes: analyzing corridors for bearded vultures in the Iberian Peninsula",
+        "ca": "Linking landscapes: analyzing corridors for bearded vultures in the Iberian Peninsula"
+      },
+      "scientific_title": "Linking landscapes: analyzing corridors for bearded vultures in the Iberian Peninsula",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Inmaculada Navarro; Miguel Ángel Farfán; José Carlos González; Juan Antonio Gil; Antonio Román Muñoz",
+      "venue": "European Journal of Wildlife Research",
+      "doi": "10.1007/s10344-026-02094-8",
+      "url": "https://doi.org/10.1007/s10344-026-02094-8",
+      "source": "https://api.crossref.org/works/10.1007/s10344-026-02094-8",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.1007/s10344-026-02094-8",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
+      ]
+    },
+    {
       "id": "catalogue-cc3602b76472cf3d",
       "type": "paper",
       "publication_kind": "dataset",
@@ -1818,6 +1853,41 @@
       ]
     },
     {
+      "id": "catalogue-a2fc4f3d18c41d97",
+      "type": "paper",
+      "publication_kind": "preprint",
+      "date": "2026-02-14",
+      "date_precision": "day",
+      "title": {
+        "en": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform",
+        "es": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform",
+        "ca": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform"
+      },
+      "scientific_title": "Playback calls help to increase the detectability of\n                  <i>Coturnix coturnix</i>\n                  (Common quail), a cryptic and widespread galliform",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Eduardo Laguna; Inmaculada Navarro; Raquel Castillo-Contreras; José A. Torres; Juan Rubiales; Miguel Beloki; Carlos Sánchez-García",
+      "venue": "bioRxiv",
+      "doi": "10.64898/2026.02.13.705393",
+      "url": "https://doi.org/10.64898/2026.02.13.705393",
+      "source": "https://api.crossref.org/works/10.64898/2026.02.13.705393",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "preprint",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.64898/2026.02.13.705393",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
+      ]
+    },
+    {
       "id": "catalogue-34c32cef97a6e88a",
       "type": "paper",
       "publication_kind": "dataset",
@@ -2240,6 +2310,41 @@
         "https://api.crossref.org/works/10.1016/b978-0-443-40296-8.00002-1",
         "https://orcid.org/0000-0002-9134-4591",
         "https://orcid.org/0000-0001-7911-3144"
+      ]
+    },
+    {
+      "id": "catalogue-02ac460d18dd992a",
+      "type": "paper",
+      "publication_kind": "article",
+      "date": "2026-01-01",
+      "date_precision": "month",
+      "title": {
+        "en": "Herbaceous cover management in olive groves can be important for aerial-feeding birds. A case study in southern Spain",
+        "es": "Herbaceous cover management in olive groves can be important for aerial-feeding birds. A case study in southern Spain",
+        "ca": "Herbaceous cover management in olive groves can be important for aerial-feeding birds. A case study in southern Spain"
+      },
+      "scientific_title": "Herbaceous cover management in olive groves can be important for aerial-feeding birds. A case study in southern Spain",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Inmaculada Navarro; Miguel Ángel Farfán; Julia E. Fa; Antonio-Román Muñoz",
+      "venue": "Journal for Nature Conservation",
+      "doi": "10.1016/j.jnc.2025.127068",
+      "url": "https://doi.org/10.1016/j.jnc.2025.127068",
+      "source": "https://api.crossref.org/works/10.1016/j.jnc.2025.127068",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.1016/j.jnc.2025.127068",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
       ]
     },
     {
@@ -2896,6 +3001,41 @@
       ]
     },
     {
+      "id": "catalogue-342963e540a03fec",
+      "type": "paper",
+      "publication_kind": "article",
+      "date": "2025-07-01",
+      "date_precision": "day",
+      "title": {
+        "en": "Does Forest Structure Influence the Abundance of Predators and Habitat Competitors of the Endangered Pyrenean Capercaillie?",
+        "es": "Does Forest Structure Influence the Abundance of Predators and Habitat Competitors of the Endangered Pyrenean Capercaillie?",
+        "ca": "Does Forest Structure Influence the Abundance of Predators and Habitat Competitors of the Endangered Pyrenean Capercaillie?"
+      },
+      "scientific_title": "Does Forest Structure Influence the Abundance of Predators and Habitat Competitors of the Endangered Pyrenean Capercaillie?",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Adrián Moreno; Inmaculada Navarro; Rubén Chamizo; Carlos Martínez-Carrasco; Carlos Sánchez-García",
+      "venue": "Ecologies",
+      "doi": "10.3390/ecologies6030046",
+      "url": "https://doi.org/10.3390/ecologies6030046",
+      "source": "https://api.crossref.org/works/10.3390/ecologies6030046",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.3390/ecologies6030046",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
+      ]
+    },
+    {
       "id": "catalogue-88cfb4d529d64555",
       "type": "paper",
       "publication_kind": "article",
@@ -3202,6 +3342,41 @@
         "https://api.crossref.org/works/10.5194/egusphere-egu25-4285",
         "https://orcid.org/0000-0001-7132-2080",
         "https://orcid.org/0000-0001-7911-3144"
+      ]
+    },
+    {
+      "id": "catalogue-39950b64eccb8049",
+      "type": "paper",
+      "publication_kind": "article",
+      "date": "2025-03-04",
+      "date_precision": "day",
+      "title": {
+        "en": "Game Species Management and Ecosystem Health: Leveraging Vulture Scavenging to Improve Carcass Disposal and Health Risk Reduction",
+        "es": "Game Species Management and Ecosystem Health: Leveraging Vulture Scavenging to Improve Carcass Disposal and Health Risk Reduction",
+        "ca": "Game Species Management and Ecosystem Health: Leveraging Vulture Scavenging to Improve Carcass Disposal and Health Risk Reduction"
+      },
+      "scientific_title": "Game Species Management and Ecosystem Health: Leveraging Vulture Scavenging to Improve Carcass Disposal and Health Risk Reduction",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Inmaculada Navarro; Raquel Castillo-Contreras",
+      "venue": "Animals",
+      "doi": "10.3390/ani15050732",
+      "url": "https://doi.org/10.3390/ani15050732",
+      "source": "https://api.crossref.org/works/10.3390/ani15050732",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.3390/ani15050732",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
       ]
     },
     {
@@ -3789,6 +3964,41 @@
       ]
     },
     {
+      "id": "catalogue-a933d6de3267e145",
+      "type": "paper",
+      "publication_kind": "article",
+      "date": "2024-10-14",
+      "date_precision": "day",
+      "title": {
+        "en": "Teleconnection between the Reproductive Parameters of the Bearded Vulture and Macroclimatic Oscillations: Implications for Conservation",
+        "es": "Teleconnection between the Reproductive Parameters of the Bearded Vulture and Macroclimatic Oscillations: Implications for Conservation",
+        "ca": "Teleconnection between the Reproductive Parameters of the Bearded Vulture and Macroclimatic Oscillations: Implications for Conservation"
+      },
+      "scientific_title": "Teleconnection between the Reproductive Parameters of the Bearded Vulture and Macroclimatic Oscillations: Implications for Conservation",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Inmaculada Navarro; Raimundo Real; Antonio Román Muñoz; José Carlos González; Miguel Ángel Farfán",
+      "venue": "Journal of Raptor Research",
+      "doi": "10.3356/jrr2357",
+      "url": "https://doi.org/10.3356/jrr2357",
+      "source": "https://api.crossref.org/works/10.3356/jrr2357",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.3356/jrr2357",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
+      ]
+    },
+    {
       "id": "catalogue-eb5f62b1f6f90081",
       "type": "paper",
       "publication_kind": "preprint",
@@ -4131,6 +4341,41 @@
       ]
     },
     {
+      "id": "catalogue-69bb3320eb5000a6",
+      "type": "paper",
+      "publication_kind": "article",
+      "date": "2024-01-26",
+      "date_precision": "day",
+      "title": {
+        "en": "Survival Estimation Using Multistate Cormack–Jolly–Seber Models—The Case of the Bearded Vulture Gypaetus barbatus in Spain",
+        "es": "Survival Estimation Using Multistate Cormack–Jolly–Seber Models—The Case of the Bearded Vulture Gypaetus barbatus in Spain",
+        "ca": "Survival Estimation Using Multistate Cormack–Jolly–Seber Models—The Case of the Bearded Vulture Gypaetus barbatus in Spain"
+      },
+      "scientific_title": "Survival Estimation Using Multistate Cormack–Jolly–Seber Models—The Case of the Bearded Vulture Gypaetus barbatus in Spain",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Inmaculada Navarro; Miguel Ángel Farfán; Juan Antonio Gil; Antonio Román Muñoz",
+      "venue": "Animals",
+      "doi": "10.3390/ani14030403",
+      "url": "https://doi.org/10.3390/ani14030403",
+      "source": "https://api.crossref.org/works/10.3390/ani14030403",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.crossref.org/works/10.3390/ani14030403",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
+      ]
+    },
+    {
       "id": "catalogue-a7e9eb0b8daa6110",
       "type": "paper",
       "publication_kind": "preprint",
@@ -4162,6 +4407,41 @@
       "evidence": [
         "https://api.crossref.org/works/10.2139/ssrn.4692303",
         "https://orcid.org/0000-0002-2436-8374"
+      ]
+    },
+    {
+      "id": "catalogue-46656aa652a924f9",
+      "type": "paper",
+      "publication_kind": "other",
+      "date": "2024-01-01",
+      "date_precision": "year",
+      "title": {
+        "en": "Análisis de la distribución de la perdiz roja (Alectoris rufa) en España mediante la elaboración de modelos biogeográficos",
+        "es": "Análisis de la distribución de la perdiz roja (Alectoris rufa) en España mediante la elaboración de modelos biogeográficos",
+        "ca": "Análisis de la distribución de la perdiz roja (Alectoris rufa) en España mediante la elaboración de modelos biogeográficos"
+      },
+      "scientific_title": "Análisis de la distribución de la perdiz roja (Alectoris rufa) en España mediante la elaboración de modelos biogeográficos",
+      "body": {
+        "en": "Bibliographic record verified against the DOI registry. Follow the DOI to read the original work.",
+        "es": "Referencia bibliográfica contrastada con el registro DOI. Consulta el trabajo original a través del DOI.",
+        "ca": "Referència bibliogràfica contrastada amb el registre DOI. Consulta el treball original a través del DOI."
+      },
+      "authors": "Inmaculada Navarro Ramírez; Macarena Martínez; Carlos Sánchez-García; Raquel Castillo-Contreras",
+      "venue": "Research poster",
+      "doi": "10.13140/rg.2.2.36269.09443",
+      "url": "https://doi.org/10.13140/rg.2.2.36269.09443",
+      "source": "https://api.datacite.org/dois/10.13140/rg.2.2.36269.09443",
+      "team_members": [
+        "Inmaculada Navarro Ramírez"
+      ],
+      "paper_status": "published",
+      "published": true,
+      "bibliographic": true,
+      "example": false,
+      "evidence": [
+        "https://api.datacite.org/dois/10.13140/rg.2.2.36269.09443",
+        "https://orcid.org/0000-0001-9474-3574",
+        "https://www.ctfc.cat/personal24_det.php?id=295"
       ]
     }
   ]
