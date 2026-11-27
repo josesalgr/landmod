@@ -241,3 +241,12 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .project-detail .plan-caza-logo-window{width:110px}
 
 .project-detail>.project-logo-dark,.home-project>.project-logo-dark{background:var(--pine);justify-content:center}.project-logo-dark img{max-width:100%;object-fit:contain}
+
+/* Optical logo framing: source images stay intact; viewBox removes empty margins. */
+.home-project>.project-logo{height:180px;margin-bottom:24px;padding:7px;justify-content:center}
+.project-detail>.project-logo{height:215px;padding:22px;justify-content:center}
+.project-logo-art{display:block;width:100%;height:100%;max-width:380px;overflow:hidden;flex-shrink:1}
+.home-project .project-logo-art{max-width:260px}
+.project-detail>.project-logo-dark{background:var(--pine)}
+.project-logo .project-wordmark{font-size:clamp(25px,2.5vw,38px);text-align:center;overflow-wrap:anywhere}
+@media(max-width:600px){.home-project>.project-logo{height:145px;padding:3px;margin-bottom:20px}.project-detail>.project-logo{height:190px;padding:18px}.project-logo .project-wordmark{font-size:26px}}
