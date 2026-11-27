@@ -15,7 +15,13 @@
       "description_ca": "Explora escenaris de gestió forestal i clima, projectant la dinàmica dels boscos i els serveis ecosistèmics per donar suport a la planificació multiobjectiu.",
       "credit_ca": "Plataforma de modelització i planificació forestal · CTFC.",
       "logo": "/uploads/software/formes.png",
-      "logo_source": "https://formes.ctfc.cat/web/assets/logo_FORMES_green_2-DxoJ5V5y.png"
+      "logo_source": "https://formes.ctfc.cat/web/assets/logo_FORMES_green_2-DxoJ5V5y.png",
+      "institution": {
+        "name": "CTFC",
+        "url": "https://www.ctfc.cat/",
+        "logo": "/uploads/identity/ctfc.png",
+        "theme": "dark"
+      }
     },
     {
       "id": "multiscape",
@@ -66,7 +72,13 @@
       "credit_ca": "Desenvolupat i mantingut per EMF/CREAF, amb finançament del CSIC i col·laboració del CTFC i altres institucions.",
       "logo": "/uploads/software/medfate.png",
       "logo_source": "https://emf-creaf.github.io/medfate/logo.png",
-      "cran": "https://cran.r-project.org/package=medfate"
+      "cran": "https://cran.r-project.org/package=medfate",
+      "institution": {
+        "name": "Ecosystem Modelling Facility · CREAF",
+        "url": "https://emf.creaf.cat/",
+        "logo": "/uploads/identity/emf.svg",
+        "theme": "light"
+      }
     },
     {
       "id": "medfateland",
@@ -84,7 +96,13 @@
       "credit_ca": "Desenvolupat i mantingut per EMF/CREAF en col·laboració amb altres institucions. La fitxa d’autoria inclou Núria Aquilué (CTFC).",
       "logo": "/uploads/software/medfateland.png",
       "logo_source": "https://emf-creaf.github.io/medfateland/logo.png",
-      "cran": "https://cran.r-project.org/package=medfateland"
+      "cran": "https://cran.r-project.org/package=medfateland",
+      "institution": {
+        "name": "Ecosystem Modelling Facility · CREAF",
+        "url": "https://emf.creaf.cat/",
+        "logo": "/uploads/identity/emf.svg",
+        "theme": "light"
+      }
     }
   ]
 }
