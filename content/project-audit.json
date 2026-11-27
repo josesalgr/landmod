@@ -63,5 +63,26 @@
       ],
       "findings": "Inspected official media library matches, event photos and funding strip. The strip contains ministry, Fundación Biodiversidad, PIMA adapta and OECC marks, not a REFORADAPT logo. Public leaflet and final-report links returned 403. Absence of a verified asset is not proof that no project logo exists."
     }
+  },
+  "facts_review": {
+    "checked": "2026-11-27",
+    "policy": "Whole-project total costs only; BIOCONSENT source publishes total grant, labelled separately. No partner-only awards or inferred budgets. Date precision follows source.",
+    "pending": {
+      "PLAN-CAZA": "Total budget not found in official CTFC/FECYT project pages. Period confirmed May 2026–May 2028.",
+      "FORESFUTURE": "No verified contractual start/end or total budget. Reports dated 2023–2025 and simulation horizon to 2100 are not execution dates."
+    },
+    "sources": {
+      "PLAN-CAZA": "https://www.convocatoriasip.fecyt.es/proyectos/desarrollo-de-una-herramienta-de-planificacion-y-optimizacion-para-el-reparto-de-cupos-de",
+      "BOSPIR-3D": "https://www.ctfc.cat/docs/CAT%20BOSPIR-3D.pdf",
+      "RES-MAB": "https://mel.cgiar.org/projects/1967",
+      "PYSOLO": "https://cordis.europa.eu/project/id/101118270",
+      "FIRE-RES": "https://cordis.europa.eu/project/id/101037419",
+      "FORESFUTURE": "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
+      "REFORADAPT": "https://fundacion-biodiversidad.es/proyectos_ficha/recopilacion-de-casos-de-exito-en-restauracion-y-adaptacion-forestal-en-espana-reforadapt/",
+      "DecisionES": "https://cordis.europa.eu/project/id/101007950",
+      "PRISMA": "https://fundacion-biodiversidad.es/proyecto_prtr/bosques-del-siglo-xxi-empoderados-innovadores-y-con-emprendimiento-prisma/",
+      "BIOCONSENT": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
+      "ONEforest": "https://cordis.europa.eu/project/id/101000406"
+    }
   }
 }

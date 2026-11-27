@@ -250,3 +250,10 @@ nav a[aria-current=page]{color:#fff;text-decoration:underline;text-decoration-co
 .project-detail>.project-logo-dark{background:var(--pine)}
 .project-logo .project-wordmark{font-size:clamp(25px,2.5vw,38px);text-align:center;overflow-wrap:anywhere}
 @media(max-width:600px){.home-project>.project-logo{height:145px;padding:3px;margin-bottom:20px}.project-detail>.project-logo{height:190px;padding:18px}.project-logo .project-wordmark{font-size:26px}}
+
+/* Verified project dates and whole-project funding */
+.project-facts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0;padding:16px 0;border-top:1px solid var(--line,#dce4df);border-bottom:1px solid var(--line,#dce4df)}
+.project-facts dt{font-size:14px;color:var(--muted,#52685f);margin-bottom:5px;line-height:1.4}
+.project-facts dd{margin:0;font-size:17px;font-weight:500;color:var(--pine);line-height:1.5}
+.project-facts-source{font-size:13px;margin:0 0 16px}
+@media(max-width:600px){.project-facts{grid-template-columns:1fr;gap:12px}}

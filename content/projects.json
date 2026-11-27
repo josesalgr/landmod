@@ -28,7 +28,14 @@
         0,
         429,
         442
-      ]
+      ],
+      "start_date": "2026-05",
+      "end_date": "2028-05",
+      "budget_eur": null,
+      "budget_basis": "total",
+      "facts_source": "https://www.convocatoriasip.fecyt.es/proyectos/desarrollo-de-una-herramienta-de-planificacion-y-optimizacion-para-el-reparto-de-cupos-de",
+      "facts_checked": "2026-11-27",
+      "period": "2026–2028"
     },
     {
       "name": "BOSPIR-3D",
@@ -60,7 +67,13 @@
         477,
         2534,
         1969
-      ]
+      ],
+      "start_date": "2025-11-01",
+      "end_date": "2028-10-31",
+      "budget_eur": 665994.73,
+      "budget_basis": "total",
+      "facts_source": "https://www.ctfc.cat/docs/CAT%20BOSPIR-3D.pdf",
+      "facts_checked": "2026-11-27"
     },
     {
       "name": "RES-MAB",
@@ -87,7 +100,14 @@
         0,
         696,
         138
-      ]
+      ],
+      "start_date": "2024-04-01",
+      "end_date": "2027-03-31",
+      "budget_eur": 4052875,
+      "budget_basis": "total",
+      "facts_source": "https://mel.cgiar.org/projects/1967",
+      "facts_checked": "2026-11-27",
+      "period": "2024–2027"
     },
     {
       "name": "PYSOLO",
@@ -118,7 +138,14 @@
         0,
         465,
         328
-      ]
+      ],
+      "start_date": "2023-07-01",
+      "end_date": "2027-06-30",
+      "budget_eur": 4997162.5,
+      "budget_basis": "total",
+      "facts_source": "https://cordis.europa.eu/project/id/101118270",
+      "facts_checked": "2026-11-27",
+      "period": "2023–2027"
     },
     {
       "name": "FIRE-RES",
@@ -149,7 +176,14 @@
         1,
         794,
         199
-      ]
+      ],
+      "start_date": "2021-12-01",
+      "end_date": "2025-11-30",
+      "budget_eur": 21541422.51,
+      "budget_basis": "total",
+      "facts_source": "https://cordis.europa.eu/project/id/101037419",
+      "facts_checked": "2026-11-27",
+      "period": "2021–2025"
     },
     {
       "name": "FORESFUTURE",
@@ -182,7 +216,13 @@
         25,
         593,
         156
-      ]
+      ],
+      "start_date": null,
+      "end_date": null,
+      "budget_eur": null,
+      "budget_basis": "total",
+      "facts_source": "https://www.creaf.cat/es/articulos/catalunya-presenta-foresfuture-decidir-como-gestionamos-bosques",
+      "facts_checked": "2026-11-27"
     },
     {
       "name": "REFORADAPT",
@@ -204,7 +244,13 @@
       "label_ca": "Aprendre de la restauració forestal a Espanya",
       "description_ca": "Recopila i sintetitza experiències de restauració forestal i adaptació climàtica a Espanya. Analitza els factors ecològics, socials, econòmics i polítics associats a l’èxit per donar suport a la planificació de futures actuacions.",
       "category_ca": "Projecte",
-      "period": "2023–2025"
+      "period": "2023–2025",
+      "start_date": "2023",
+      "end_date": "2025",
+      "budget_eur": 196209.71,
+      "budget_basis": "total",
+      "facts_source": "https://fundacion-biodiversidad.es/proyectos_ficha/recopilacion-de-casos-de-exito-en-restauracion-y-adaptacion-forestal-en-espana-reforadapt/",
+      "facts_checked": "2026-11-27"
     },
     {
       "name": "DecisionES",
@@ -236,7 +282,13 @@
         0,
         1500,
         276
-      ]
+      ],
+      "start_date": "2021-07-01",
+      "end_date": "2026-06-30",
+      "budget_eur": 2401200,
+      "budget_basis": "total",
+      "facts_source": "https://cordis.europa.eu/project/id/101007950",
+      "facts_checked": "2026-11-27"
     },
     {
       "name": "PRISMA",
@@ -263,7 +315,14 @@
         14,
         739,
         187
-      ]
+      ],
+      "start_date": "2024-02-09",
+      "end_date": "2025-12-31",
+      "budget_eur": 1958725,
+      "budget_basis": "total",
+      "facts_source": "https://fundacion-biodiversidad.es/proyecto_prtr/bosques-del-siglo-xxi-empoderados-innovadores-y-con-emprendimiento-prisma/",
+      "facts_checked": "2026-11-27",
+      "period": "2024–2025"
     },
     {
       "name": "BIOCONSENT",
@@ -290,7 +349,14 @@
         32,
         148,
         92
-      ]
+      ],
+      "start_date": "2022-03-01",
+      "end_date": "2025-03-31",
+      "budget_eur": 1246023,
+      "budget_basis": "grant",
+      "facts_source": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
+      "facts_checked": "2026-11-27",
+      "period": "2022–2025"
     },
     {
       "name": "ONEforest",
@@ -317,7 +383,14 @@
         76,
         1665,
         319
-      ]
+      ],
+      "start_date": "2021-06-01",
+      "end_date": "2024-05-31",
+      "budget_eur": 5241423.75,
+      "budget_basis": "total",
+      "facts_source": "https://cordis.europa.eu/project/id/101000406",
+      "facts_checked": "2026-11-27",
+      "period": "2021–2024"
     },
     {
       "name": "FORMES",
