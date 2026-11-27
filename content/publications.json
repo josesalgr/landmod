@@ -320,7 +320,7 @@
     {
       "id": "catalogue-b3791bd9e4bef66a",
       "type": "paper",
-      "publication_kind": "article",
+      "publication_kind": "dataset",
       "date": "2026-10-23",
       "date_precision": "day",
       "title": {
@@ -352,7 +352,8 @@
         "https://api.datacite.org/dois/10.5281/zenodo.20079607",
         "https://orcid.org/0000-0001-7911-3144",
         "https://orcid.org/0000-0001-9817-2625"
-      ]
+      ],
+      "classification_note": "Repository workflow deposit, not a journal article; excluded from annual journal-article statistics."
     },
     {
       "id": "catalogue-7820f6ce5acaf904",
