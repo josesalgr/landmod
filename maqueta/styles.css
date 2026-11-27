@@ -345,3 +345,26 @@ main.home-layout>.inner-section.news-archive-canvas{padding:38px var(--page-gutt
 .news-archive-canvas .filters button:not([aria-pressed=true]){background:#fff;border-color:#d9e2d6}
 .projects-page h1{margin-top:0}
 @media(max-width:760px){main.home-layout>.inner-section.news-archive-canvas{padding-top:28px;padding-bottom:38px}}
+
+/* Shared spacing and type scale across LANDMOD sections */
+:root{--catalogue-bg:#edf2ec;--card-border:#d9e2d6;--card-radius:5px;--card-gap:24px;--card-padding:24px;--section-top:40px;--section-bottom:60px;--page-title-size:clamp(34px,3.7vw,48px);--card-title-size:20px}
+.software-page,.projects-page,main>.inner-section.catalogue-canvas,main.home-layout>.inner-section.news-archive-canvas{padding:var(--section-top) var(--page-gutter) var(--section-bottom);background:var(--catalogue-bg)}
+.software-page h1,.projects-page h1,.catalogue-canvas h1,.news-archive-canvas .latest-news h1{font-size:var(--page-title-size);font-weight:300;line-height:1.15;letter-spacing:-1px;color:var(--pine);margin:0 0 16px}
+.publications-title-row{align-items:flex-start;margin-bottom:24px}.publications-title-row h1{margin:0}.publication-chart-mini{margin-top:-8px}
+.software-page>.page-intro,.projects-page>.page-intro,.catalogue-canvas .section-head p,.news-archive-canvas .section-head p{font-size:17px;line-height:1.7;max-width:800px;color:var(--muted);margin:0 0 24px}
+.projects-catalogue,.software-list,.catalogue-canvas .people,.news-archive-canvas .news-list{gap:var(--card-gap);margin-top:28px}
+.projects-catalogue>.project-detail,.software-list>.software-item,.catalogue-canvas .person,.catalogue-canvas .publication-record,.home-layout .news-item{border:1px solid var(--card-border);border-radius:var(--card-radius);background:#fff;box-shadow:0 2px 8px #153f3405}
+.projects-catalogue>.project-detail,.catalogue-canvas .person,.catalogue-canvas .publication-record,.software-content{padding:var(--card-padding)}
+.home-layout .news-copy{padding:var(--card-padding)}
+.project-detail h2,.software-item h2,.catalogue-canvas .person h3,.catalogue-canvas .publication-record h3,.home-layout .news-copy h2{font-size:var(--card-title-size);font-weight:400;line-height:1.4;letter-spacing:0;margin:0 0 12px;color:var(--pine)}
+.project-detail p,.software-item .software-description,.home-layout .news-summary{font-size:16px;line-height:1.65}
+.project-detail>.project-logo{margin-bottom:20px}
+.catalogue-canvas .publication-record{margin-bottom:16px}
+.software-page .filters,.news-archive-canvas .filters{gap:8px;margin:24px 0 0}
+.software-page .filters button,.news-archive-canvas .filters button{padding:7px 13px;font-size:14px;border-radius:3px}
+.home-layout .latest-news{background:var(--catalogue-bg)}
+.news-archive-canvas>.latest-news{padding:0;background:transparent}
+body:has(main.home-layout) .bar{padding-left:var(--page-gutter);padding-right:var(--page-gutter)}
+@media(max-width:760px){:root{--section-top:28px;--section-bottom:40px;--card-padding:20px;--card-gap:20px;--card-title-size:19px}.catalogue-canvas .person{gap:16px}.home-layout .latest-news{padding-left:var(--page-gutter);padding-right:var(--page-gutter)}.news-archive-canvas>.latest-news{padding:0}}
+
+@media(max-width:480px){.bar nav{gap:12px;flex-wrap:wrap;overflow:visible}.bar nav a{font-size:12px;white-space:nowrap}}
