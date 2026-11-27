@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import http from 'node:http';
+import {spawn} from 'node:child_process';
+import {root,readContent,vendor,cmsConfig} from './content.mjs';
+const web=path.join(root,'maqueta');await vendor(web);
+await fs.writeFile(path.join(web,'admin/config.json'),JSON.stringify(await cmsConfig(),null,2));
+const pkg=JSON.parse(await fs.readFile(path.join(root,'node_modules/decap-server/package.json'),'utf8'));
+const bin=typeof pkg.bin==='string'?pkg.bin:Object.values(pkg.bin)[0];
+const proxy=spawn(process.execPath,[path.join(root,'node_modules/decap-server',bin)],{cwd:root,env:{...process.env,BIND_HOST:'127.0.0.1',ORIGIN:'http://127.0.0.1:8000',MODE:'fs',PORT:'8081'},stdio:'inherit',windowsHide:true});
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.pdf':'application/pdf'};
+const server=http.createServer(async(req,res)=>{try{if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);return res.end();}let pathname=decodeURIComponent(new URL(req.url,'http://127.0.0.1').pathname);if(pathname==='/content.json'){const content=JSON.stringify(await readContent());res.writeHead(200,{'Content-Type':'application/json','Cache-Control':'no-store'});return res.end(req.method==='HEAD'?'':content);}if(pathname.endsWith('/'))pathname+='index.html';const file=path.resolve(web,'.'+pathname);if(!file.startsWith(web+path.sep)||pathname.split('/').some(p=>p.startsWith('.'))){res.writeHead(403);return res.end();}const body=await fs.readFile(file);res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});res.end(req.method==='HEAD'?'':body);}catch(e){res.writeHead(e.code==='ENOENT'?404:500);res.end(e.code==='ENOENT'?'No encontrado':'Error al cargar el contenido. Revisa los archivos.');}});
+server.listen(8000,'127.0.0.1',()=>console.log('LANDMOD: http://127.0.0.1:8000/ · Editor: http://127.0.0.1:8000/admin/'));
+function stop(){proxy.kill();server.close();}process.on('SIGINT',stop);process.on('SIGTERM',stop);process.on('exit',()=>proxy.kill());

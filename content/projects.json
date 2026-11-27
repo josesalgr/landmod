@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "name": "FORMES",
+      "label_es": "Modelización y planificación forestal",
+      "label_en": "Forest modelling and planning",
+      "url": "https://formes.ctfc.cat/web/home",
+      "category_es": "Herramienta",
+      "category_en": "Tool",
+      "label_ca": "Modelització i planificació forestal",
+      "category_ca": "Eina"
+    },
+    {
+      "name": "RES-MAB",
+      "label_es": "Resiliencia en reservas de la biosfera mediterráneas",
+      "label_en": "Resilience in Mediterranean biosphere reserves",
+      "url": "https://resmab.eu/",
+      "category_es": "Proyecto",
+      "category_en": "Project",
+      "label_ca": "Resiliència en reserves de la biosfera mediterrànies",
+      "category_ca": "Projecte"
+    },
+    {
+      "name": "BIOCONSENT",
+      "label_es": "Decisiones para conservar y restaurar la biodiversidad forestal",
+      "label_en": "Decisions for forest biodiversity conservation and restoration",
+      "url": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
+      "category_es": "Proyecto",
+      "category_en": "Project",
+      "label_ca": "Decisions per conservar i restaurar la biodiversitat forestal",
+      "category_ca": "Projecte"
+    },
+    {
+      "name": "ONEforest",
+      "label_es": "Apoyo multicriterio a la gestión forestal",
+      "label_en": "Multi-criteria support for forest management",
+      "url": "https://www.oneforest.eu/",
+      "category_es": "Resultados de proyecto",
+      "category_en": "Project results",
+      "label_ca": "Suport multicriteri a la gestió forestal",
+      "category_ca": "Resultats de projecte"
+    },
+    {
+      "name": "PRISMA",
+      "label_es": "Innovación y conocimiento para el sector forestal",
+      "label_en": "Innovation and knowledge for the forestry sector",
+      "url": "https://www.prismaforestal.es/",
+      "category_es": "Proyecto",
+      "category_en": "Project",
+      "label_ca": "Innovació i coneixement per al sector forestal",
+      "category_ca": "Projecte"
+    }
+  ]
+}

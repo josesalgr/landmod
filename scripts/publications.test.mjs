@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {readContent,root} from './content.mjs';
+import path from 'node:path';
+test('audited catalogue contains unique 2024–2026 DOI records and team evidence',async()=>{const catalogue=JSON.parse(await fs.readFile(path.join(root,'content/publications.json'),'utf8'));const audit=JSON.parse(await fs.readFile(path.join(root,'content/publication-audit.json'),'utf8'));assert.equal(catalogue.entries.length,120);assert.equal(new Set(catalogue.entries.map(e=>e.doi.toLowerCase())).size,120);assert.equal(audit.coverage.length,12);for(const e of catalogue.entries){assert.match(e.date,/^202[456]-/);assert.ok(e.team_members.length);assert.ok(e.evidence.length);assert.match(e.source,/^https:\/\/api\.(crossref|datacite)\.org\//);assert.ok(['article','chapter','conference','preprint','dataset','software','report','other'].includes(e.publication_kind));}const data=await readContent();const dois=data.entries.filter(e=>e.doi).map(e=>e.doi.toLowerCase());assert.equal(new Set(dois).size,dois.length);assert.equal(data.entries.filter(e=>!e.bibliographic).length,10);assert.equal(data.entries.filter(e=>e.type==='paper').length,121);});

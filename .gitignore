@@ -1,0 +1,12 @@
+node_modules/
+.tools/
+dist/
+.env
+*.log
+maqueta/vendor/
+maqueta/admin/config.json
+
+.env.*
+!.env.example
+studio/.sanity/
+studio/dist/

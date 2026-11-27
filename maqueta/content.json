@@ -1,0 +1,598 @@
+{
+  "version": 4,
+  "entries": [
+    {
+      "id": "paper-biomasa-biorrefinerias",
+      "type": "paper",
+      "external_blog": false,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "scientific_title": "Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region",
+      "source": "https://api.crossref.org/works/10.1016/j.renene.2026.125766",
+      "title": {
+        "es": "Biomasa forestal y localización de biorrefinerías solares",
+        "en": "Forest biomass and solar-powered biorefinery locations"
+      },
+      "body": {
+        "es": "Un estudio sobre la distribución espacial de biomasa forestal y la búsqueda de localizaciones para biorrefinerías alimentadas con energía solar en la región mediterránea.\n\n**Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region**\n\nReferencia y texto del artículo disponibles a través del DOI.",
+        "en": "A study of the spatial distribution of forest biomass and the search for locations for solar-powered biorefineries in the Mediterranean region.\n\n**Mapping optimal locations of forest biomass for solar-powered biorefinery plants in the Mediterranean region**\n\nFollow the DOI for the article and bibliographic details."
+      },
+      "example": false,
+      "url": "https://doi.org/10.1016/j.renene.2026.125766",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/forest.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/es/un-bosque-rico-en-especies-puede-ser-un-ecosistema-funcionalmente-pobre/",
+      "thumbnail_credit": {
+        "es": "CTFC · Fotografía de contexto",
+        "en": "CTFC · Context photograph"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "Erico Kutchartt; Francesco Pirotti; José Salgado-Rojas; Álvaro Cortés-Molino; Núria Aquilué; Neus Puy",
+      "venue": "Renewable Energy",
+      "doi": "10.1016/j.renene.2026.125766",
+      "citation": "",
+      "paper_status": "published",
+      "published": true
+    },
+    {
+      "id": "paper-cortafuegos-optimizacion",
+      "type": "paper",
+      "external_blog": false,
+      "date": "2026-11-01",
+      "date_precision": "month",
+      "scientific_title": "A Bayesian-optimised network interdiction heuristic for firebreak placement under stochastic wildfire spread",
+      "source": "https://api.crossref.org/works/10.1016/j.ecoinf.2026.104104",
+      "title": {
+        "es": "Optimización de cortafuegos ante la incertidumbre del fuego",
+        "en": "Optimising firebreaks under uncertain wildfire spread"
+      },
+      "body": {
+        "es": "Una aproximación que combina interdicción de redes y optimización bayesiana para estudiar dónde situar cortafuegos cuando la propagación del fuego es incierta.\n\n**A Bayesian-optimised network interdiction heuristic for firebreak placement under stochastic wildfire spread**\n\nReferencia y texto del artículo disponibles a través del DOI.",
+        "en": "An approach combining network interdiction and Bayesian optimisation to study firebreak placement under uncertain fire spread.\n\n**A Bayesian-optimised network interdiction heuristic for firebreak placement under stochastic wildfire spread**\n\nFollow the DOI for the article and bibliographic details."
+      },
+      "example": false,
+      "url": "https://doi.org/10.1016/j.ecoinf.2026.104104",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/remains.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/",
+      "thumbnail_credit": {
+        "es": "CTFC · Fotografía de contexto",
+        "en": "CTFC · Context photograph"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "Felipe Ulloa-Fierro; Eduardo Álvarez-Miranda; José Salgado-Rojas; José Ramón González-Olabarria; Jordi Garcia-Gonzalo; Camilo Matus-Olivares; Andrés Weintraub; Jaime Carrasco-Barra",
+      "venue": "Ecological Informatics",
+      "doi": "10.1016/j.ecoinf.2026.104104",
+      "citation": "",
+      "paper_status": "published",
+      "published": true
+    },
+    {
+      "id": "paper-pino-silvestre-clima",
+      "type": "paper",
+      "external_blog": false,
+      "date": "2026-09-01",
+      "date_precision": "month",
+      "scientific_title": "Climate-sensitive models for the dynamics of Pinus sylvestris stands in Catalonia",
+      "source": "https://api.crossref.org/works/10.1016/j.foreco.2026.123849",
+      "title": {
+        "es": "Modelos sensibles al clima para el pino silvestre",
+        "en": "Climate-sensitive Scots pine models"
+      },
+      "body": {
+        "es": "Modelización de la dinámica de masas de Pinus sylvestris en Cataluña incorporando la sensibilidad al clima.\n\n**Climate-sensitive models for the dynamics of Pinus sylvestris stands in Catalonia**\n\nReferencia y texto del artículo disponibles a través del DOI.",
+        "en": "Modelling the dynamics of Pinus sylvestris stands in Catalonia while accounting for climate sensitivity.\n\n**Climate-sensitive models for the dynamics of Pinus sylvestris stands in Catalonia**\n\nFollow the DOI for the article and bibliographic details."
+      },
+      "example": false,
+      "url": "https://doi.org/10.1016/j.foreco.2026.123849",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/foresfuture.webp",
+      "thumbnail_source": "https://blog.ctfc.cat/ca/catalunya-presenta-el-foresfuture-un-marc-per-decidir-com-gestionem-els-nostres-boscos/",
+      "thumbnail_credit": {
+        "es": "CTFC · Fotografía de contexto",
+        "en": "CTFC · Context photograph"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "Timo Pukkala; Antoni Trasobares; Juan Martínez de Aragón; Núria Aquilué",
+      "venue": "Forest Ecology and Management",
+      "doi": "10.1016/j.foreco.2026.123849",
+      "citation": "",
+      "paper_status": "published",
+      "published": true
+    },
+    {
+      "id": "paper-remains",
+      "type": "paper",
+      "external_blog": false,
+      "date": "2023-10-01",
+      "date_precision": "month",
+      "scientific_title": "The REMAINS R-package: Paving the way for fire-landscape modeling and management",
+      "source": "https://api.crossref.org/works/10.1016/j.envsoft.2023.105801",
+      "title": {
+        "es": "REMAINS: modelizar las relaciones entre fuego y paisaje",
+        "en": "REMAINS: modelling fire–landscape interactions"
+      },
+      "body": {
+        "es": "El paquete R REMAINS permite explorar conjuntamente dinámicas de paisaje, incendios y opciones de gestión.\n\n**The REMAINS R-package: Paving the way for fire-landscape modeling and management**\n\nReferencia y texto del artículo disponibles a través del DOI.",
+        "en": "The REMAINS R package supports joint exploration of landscape dynamics, wildfires and management options.\n\n**The REMAINS R-package: Paving the way for fire-landscape modeling and management**\n\nFollow the DOI for the article and bibliographic details."
+      },
+      "example": false,
+      "url": "https://doi.org/10.1016/j.envsoft.2023.105801",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/remains.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/",
+      "thumbnail_credit": {
+        "es": "CTFC · Fotografía de contexto",
+        "en": "CTFC · Context photograph"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "Silvana Pais; Núria Aquilué; Lluís Brotons; João P. Honrado; Paulo M. Fernandes; Adrián Regos",
+      "venue": "Environmental Modelling & Software",
+      "doi": "10.1016/j.envsoft.2023.105801",
+      "citation": "",
+      "paper_status": "published",
+      "published": true
+    },
+    {
+      "id": "paper-restauracion-multiobjetivo",
+      "type": "paper",
+      "external_blog": false,
+      "date": "2026-11-01",
+      "date_precision": "month",
+      "scientific_title": "Balancing ecological benefits and feasibility in large-scale restoration planning: A multi-objective optimization decision-support framework",
+      "source": "https://api.crossref.org/works/10.1016/j.jenvman.2026.131246",
+      "title": {
+        "es": "Restauración a gran escala: beneficios ecológicos y viabilidad",
+        "en": "Large-scale restoration: ecological benefits and feasibility"
+      },
+      "body": {
+        "es": "Un marco de apoyo a las decisiones para abordar la planificación de la restauración desde la optimización multiobjetivo.\n\n**Balancing ecological benefits and feasibility in large-scale restoration planning: A multi-objective optimization decision-support framework**\n\nReferencia y texto del artículo disponibles a través del DOI.",
+        "en": "A decision-support framework addressing restoration planning through multi-objective optimisation.\n\n**Balancing ecological benefits and feasibility in large-scale restoration planning: A multi-objective optimization decision-support framework**\n\nFollow the DOI for the article and bibliographic details."
+      },
+      "example": false,
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131246",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/landscape.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/es/crear-paisajes-menos-inflamables-reduciria-hasta-un-50-el-area-quemada-prevista-para-los-proximos-30-anos/",
+      "thumbnail_credit": {
+        "es": "CTFC · Fotografía de contexto",
+        "en": "CTFC · Context photograph"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "Matías Moreno-Faguett; Jessica Castillo-Mandujano; José Salgado-Rojas; María José Martinez-Harms; Bárbara Larraín-Barrios; Micaela Poutay-Broussaingaray; Eduardo Fuentes-Lillo; Patricio Pliscoff; Pablo Ramírez de Arellano; Cecilia Smith-Ramírez; Olga Barbosa; Aníbal Pauchard; Jordi Garcia-Gonzalo; Virgilio Hermoso; Eduardo Álvarez-Miranda",
+      "venue": "Journal of Environmental Management",
+      "doi": "10.1016/j.jenvman.2026.131246",
+      "citation": "",
+      "paper_status": "published",
+      "published": true
+    },
+    {
+      "id": "paper-riesgo-ecosistemas",
+      "type": "paper",
+      "external_blog": false,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "scientific_title": "Ecosystem risk management: A MIP approach to spatial prioritization of multiple management actions",
+      "source": "https://api.crossref.org/works/10.1016/j.omega.2025.103507",
+      "title": {
+        "es": "Priorizar acciones para gestionar el riesgo en los ecosistemas",
+        "en": "Prioritising actions to manage ecosystem risk"
+      },
+      "body": {
+        "es": "Un enfoque de programación entera mixta para la priorización espacial de distintas acciones de gestión.\n\n**Ecosystem risk management: A MIP approach to spatial prioritization of multiple management actions**\n\nReferencia y texto del artículo disponibles a través del DOI.",
+        "en": "A mixed-integer programming approach to the spatial prioritisation of multiple management actions.\n\n**Ecosystem risk management: A MIP approach to spatial prioritization of multiple management actions**\n\nFollow the DOI for the article and bibliographic details."
+      },
+      "example": false,
+      "url": "https://doi.org/10.1016/j.omega.2025.103507",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/landscape.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/es/crear-paisajes-menos-inflamables-reduciria-hasta-un-50-el-area-quemada-prevista-para-los-proximos-30-anos/",
+      "thumbnail_credit": {
+        "es": "CTFC · Fotografía de contexto",
+        "en": "CTFC · Context photograph"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "Matías Moreno-Faguett; José Salgado-Rojas; Virgilio Hermoso; María José Martínez-Harms; Bárbara Larraín-Barrios; Eduardo Álvarez-Miranda",
+      "venue": "Omega",
+      "doi": "10.1016/j.omega.2025.103507",
+      "citation": "",
+      "paper_status": "published",
+      "published": true
+    },
+    {
+      "id": "activity-foresfuture-jornada",
+      "type": "activity",
+      "external_blog": false,
+      "date": "2025-10-30",
+      "date_precision": "day",
+      "scientific_title": "",
+      "source": "https://blog.ctfc.cat/en/forestfuture-presents-management-scenarios-for-the-future-of-catalonias-forests/",
+      "title": {
+        "es": "Jornada FORESFUTURE: el futuro de los bosques de Cataluña",
+        "en": "FORESFUTURE event: the future of Catalonia’s forests"
+      },
+      "body": {
+        "es": "**30 de octubre de 2025 · Distrito Administrativo, Barcelona.**\n\nJornada de presentación de escenarios de gestión forestal. Núria Aquilué y Miquel de Cáceres participaron en la presentación de la metodología y las simulaciones hasta 2100.\n\nConsulta el programa en la noticia original del CTFC. Esta actividad ya ha finalizado.",
+        "en": "**30 October 2025 · Administrative District, Barcelona.**\n\nAn event presenting forest management scenarios. Núria Aquilué and Miquel de Cáceres contributed to the presentation of the methodology and simulations through 2100.\n\nSee the original CTFC announcement for the programme. This event has ended."
+      },
+      "example": false,
+      "url": "https://blog.ctfc.cat/en/forestfuture-presents-management-scenarios-for-the-future-of-catalonias-forests/",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/jornada.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/en/forestfuture-presents-management-scenarios-for-the-future-of-catalonias-forests/",
+      "thumbnail_credit": {
+        "es": "CTFC · Imagen de la publicación original",
+        "en": "CTFC · Image from the original post"
+      },
+      "summary": {
+        "es": "Encuentro en Barcelona para presentar escenarios de gestión forestal y debatir el futuro de los bosques de Cataluña.",
+        "en": "A meeting in Barcelona to present forest management scenarios and discuss the future of Catalonia’s forests."
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "",
+      "venue": "",
+      "doi": "",
+      "citation": "",
+      "paper_status": "",
+      "published": true
+    },
+    {
+      "id": "note-foresfuture-escenarios",
+      "type": "note",
+      "external_blog": false,
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "scientific_title": "",
+      "source": "https://blog.ctfc.cat/ca/catalunya-presenta-el-foresfuture-un-marc-per-decidir-com-gestionem-els-nostres-boscos/",
+      "title": {
+        "es": "FORESFUTURE: escenarios para decidir cómo gestionar los bosques",
+        "en": "FORESFUTURE: scenarios to inform forest management"
+      },
+      "body": {
+        "es": "El CTFC presenta los resultados de FORESFUTURE, desarrollado con el CREAF. El proyecto explora la evolución de los bosques catalanes y sus servicios ecosistémicos bajo diferentes opciones de gestión y condiciones climáticas.\n\nLee la noticia completa en el blog del CTFC.",
+        "en": "CTFC presents findings from FORESFUTURE, developed with CREAF. The project explores how Catalan forests and their ecosystem services evolve under different management choices and climate conditions.\n\nRead the full story on the CTFC blog."
+      },
+      "example": false,
+      "url": "https://blog.ctfc.cat/ca/catalunya-presenta-el-foresfuture-un-marc-per-decidir-com-gestionem-els-nostres-boscos/",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/foresfuture.webp",
+      "thumbnail_source": "https://blog.ctfc.cat/ca/catalunya-presenta-el-foresfuture-un-marc-per-decidir-com-gestionem-els-nostres-boscos/",
+      "thumbnail_credit": {
+        "es": "CTFC · Imagen de la publicación original",
+        "en": "CTFC · Image from the original post"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "",
+      "venue": "",
+      "doi": "",
+      "citation": "",
+      "paper_status": "",
+      "published": true
+    },
+    {
+      "id": "blog-entrevista-foresfuture",
+      "type": "blog",
+      "external_blog": true,
+      "date": "2025-10-24",
+      "date_precision": "day",
+      "scientific_title": "",
+      "source": "https://blog.ctfc.cat/ca/entrevista-nuria-aquilue/",
+      "title": {
+        "es": "Bosques del futuro: una conversación con Núria Aquilué",
+        "en": "Forests of the future: a conversation with Núria Aquilué"
+      },
+      "body": {
+        "es": "En una entrevista publicada por el CTFC, Núria Aquilué explica el contexto de FORESFUTURE y la importancia de la gestión activa frente al cambio climático y los grandes incendios.\n\nUna lectura para acercarse a las preguntas que orientan el trabajo de modelización del paisaje.\n\nEntrevista original en catalán, en el blog del CTFC.",
+        "en": "In an interview published by CTFC, Núria Aquilué discusses FORESFUTURE and the importance of active forest management in the face of climate change and major wildfires.\n\nA useful introduction to the questions guiding landscape modelling research.\n\nOriginal interview in Catalan, on the CTFC blog."
+      },
+      "example": false,
+      "url": "https://blog.ctfc.cat/ca/entrevista-nuria-aquilue/",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/entrevista.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/ca/entrevista-nuria-aquilue/",
+      "thumbnail_credit": {
+        "es": "CTFC · Imagen de la publicación original",
+        "en": "CTFC · Image from the original post"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "",
+      "venue": "",
+      "doi": "",
+      "citation": "",
+      "paper_status": "",
+      "published": true
+    },
+    {
+      "id": "blog-remains-herramienta",
+      "type": "blog",
+      "external_blog": true,
+      "date": "2023-08-24",
+      "date_precision": "day",
+      "scientific_title": "",
+      "source": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/",
+      "title": {
+        "es": "Explorar el paisaje y el fuego con REMAINS",
+        "en": "Exploring landscapes and fire with REMAINS"
+      },
+      "body": {
+        "es": "REMAINS reúne procesos de vegetación, usos del suelo e incendios en una herramienta de simulación. El CTFC explica cómo ayuda a explorar alternativas de gestión territorial.\n\nLee la explicación y accede al paquete R desde la noticia original.",
+        "en": "REMAINS brings vegetation, land-use and wildfire processes together in a simulation tool. CTFC explains how it supports exploration of alternative land management options.\n\nRead the explanation and find the R package in the original story."
+      },
+      "example": false,
+      "url": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/",
+      "social": "",
+      "thumbnail": "/uploads/news/photos/remains.jpg",
+      "thumbnail_source": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/",
+      "thumbnail_credit": {
+        "es": "CTFC · Imagen de la publicación original",
+        "en": "CTFC · Image from the original post"
+      },
+      "summary": {
+        "es": "",
+        "en": ""
+      },
+      "image": "",
+      "image_alt": {
+        "es": "",
+        "en": ""
+      },
+      "authors": "",
+      "venue": "",
+      "doi": "",
+      "citation": "",
+      "paper_status": "",
+      "published": true
+    }
+  ],
+  "team": [
+    {
+      "name": "Núria Aquilué Junyent",
+      "role_es": "Responsable del grupo",
+      "role_en": "Group leader",
+      "image": "/uploads/team/60.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=60"
+    },
+    {
+      "name": "Olivia Cason",
+      "role_es": "Investigadora predoctoral",
+      "role_en": "Doctoral researcher",
+      "image": "/uploads/team/198.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=198"
+    },
+    {
+      "name": "Miquel De Cáceres Ainsa",
+      "role_es": "Investigador asociado",
+      "role_en": "Associated researcher",
+      "image": "/uploads/team/197.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=197"
+    },
+    {
+      "name": "Pau Garcia Iñurria",
+      "role_es": "Especialista KTT",
+      "role_en": "KTT specialist",
+      "image": "/uploads/team/182.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=182"
+    },
+    {
+      "name": "Erico Kutchartt",
+      "role_es": "Investigador",
+      "role_en": "Researcher",
+      "image": "/uploads/team/94.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=94"
+    },
+    {
+      "name": "Victoria Paz Madrid Ayala",
+      "role_es": "Investigadora",
+      "role_en": "Researcher",
+      "image": "/uploads/team/204.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=204"
+    },
+    {
+      "name": "Camilo Matus Olivares",
+      "role_es": "Investigador",
+      "role_en": "Researcher",
+      "image": "/uploads/team/306.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=306"
+    },
+    {
+      "name": "Matías Moreno Faguett",
+      "role_es": "Investigador asociado",
+      "role_en": "Associated researcher",
+      "image": "/uploads/team/148.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=148"
+    },
+    {
+      "name": "Jan Moreno Monteys",
+      "role_es": "Investigador asociado",
+      "role_en": "Associated researcher",
+      "image": "/uploads/team/303.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=303"
+    },
+    {
+      "name": "José Salgado Rojas",
+      "role_es": "Investigador",
+      "role_en": "Researcher",
+      "image": "/uploads/team/39.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=39"
+    },
+    {
+      "name": "Lukman Yazid",
+      "role_es": "Especialista KTT",
+      "role_en": "KTT specialist",
+      "image": "/uploads/team/287.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=287"
+    },
+    {
+      "name": "Quim Zaldo Aubanell",
+      "role_es": "Investigador",
+      "role_en": "Researcher",
+      "image": "/uploads/team/9.jpg",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=9"
+    }
+  ],
+  "team_source": "https://www.ctfc.cat/personal24_lindet.php?id=41",
+  "projects": [
+    {
+      "name": "FORMES",
+      "label_es": "Modelización y planificación forestal",
+      "label_en": "Forest modelling and planning",
+      "url": "https://formes.ctfc.cat/web/home",
+      "category_es": "Herramienta",
+      "category_en": "Tool"
+    },
+    {
+      "name": "RES-MAB",
+      "label_es": "Resiliencia en reservas de la biosfera mediterráneas",
+      "label_en": "Resilience in Mediterranean biosphere reserves",
+      "url": "https://resmab.eu/",
+      "category_es": "Proyecto",
+      "category_en": "Project"
+    },
+    {
+      "name": "BIOCONSENT",
+      "label_es": "Decisiones para conservar y restaurar la biodiversidad forestal",
+      "label_en": "Decisions for forest biodiversity conservation and restoration",
+      "url": "https://www.biodiversa.eu/2022/10/11/bioconsent/",
+      "category_es": "Proyecto",
+      "category_en": "Project"
+    },
+    {
+      "name": "ONEforest",
+      "label_es": "Apoyo multicriterio a la gestión forestal",
+      "label_en": "Multi-criteria support for forest management",
+      "url": "https://www.oneforest.eu/",
+      "category_es": "Resultados de proyecto",
+      "category_en": "Project results"
+    },
+    {
+      "name": "PRISMA",
+      "label_es": "Innovación y conocimiento para el sector forestal",
+      "label_en": "Innovation and knowledge for the forestry sector",
+      "url": "https://www.prismaforestal.es/",
+      "category_es": "Proyecto",
+      "category_en": "Project"
+    }
+  ],
+  "software": [
+    {
+      "id": "formes",
+      "name": "FORMES",
+      "kind": "web",
+      "description_es": "Plataforma de modelización y planificación forestal multiobjetivo. Acceso al sistema de proyección destacado por LANDMOD.",
+      "description_en": "A platform for multi-objective forest modelling and planning. Access the projection system highlighted by LANDMOD.",
+      "credit_es": "Herramienta destacada en la ficha institucional de LANDMOD · CTFC.",
+      "credit_en": "Tool highlighted in LANDMOD’s institutional profile · CTFC.",
+      "url": "https://formes.ctfc.cat/web/home",
+      "repository": "",
+      "documentation": "",
+      "source": "https://www.ctfc.cat/personal24_lindet.php?id=41"
+    },
+    {
+      "id": "remains",
+      "name": "REMAINS",
+      "kind": "r",
+      "description_es": "Paquete R para simular incendios, regeneración de la vegetación y cambios de usos del suelo, y explorar estrategias de gestión del paisaje.",
+      "description_en": "An R package to simulate wildfires, vegetation regeneration and land-use change, and explore landscape management strategies.",
+      "credit_es": "Desarrollado en el marco de FIRE-SMART, con participación del CTFC y CIBIO. Incluye la contribución de Núria Aquilué.",
+      "credit_en": "Developed within FIRE-SMART, with participation from CTFC and CIBIO. Includes contributions by Núria Aquilué.",
+      "url": "https://github.com/FirESmart-Project/REMAINS",
+      "repository": "https://github.com/FirESmart-Project/REMAINS",
+      "documentation": "https://github.com/FirESmart-Project/REMAINS#readme",
+      "source": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/"
+    },
+    {
+      "id": "medfate",
+      "name": "medfate",
+      "kind": "r",
+      "description_es": "Simulación del funcionamiento y la dinámica de los bosques mediterráneos: balance hídrico, procesos de las plantas, crecimiento y gestión.",
+      "description_en": "Simulation of Mediterranean forest functioning and dynamics: water balance, plant processes, growth and management.",
+      "credit_es": "Desarrollado y mantenido por EMF/CREAF, con financiación del CSIC y colaboración del CTFC y otras instituciones.",
+      "credit_en": "Developed and maintained by EMF/CREAF, with CSIC funding and collaboration from CTFC and other institutions.",
+      "url": "https://emf.creaf.cat/software/medfate/",
+      "repository": "https://github.com/emf-creaf/medfate",
+      "documentation": "https://emf-creaf.github.io/medfate/",
+      "source": "https://emf.creaf.cat/software/medfate/"
+    },
+    {
+      "id": "medfateland",
+      "name": "medfateland",
+      "kind": "r",
+      "description_es": "Extiende medfate a paisajes y cuencas. Permite simular procesos forestales en un contexto espacial y abordar aplicaciones ecohidrológicas.",
+      "description_en": "Extends medfate to landscapes and watersheds, supporting spatial forest simulations and ecohydrological applications.",
+      "credit_es": "Desarrollado y mantenido por EMF/CREAF en colaboración con otras instituciones. La ficha de autoría incluye a Núria Aquilué (CTFC).",
+      "credit_en": "Developed and maintained by EMF/CREAF with other institutions. The authorship page includes Núria Aquilué (CTFC).",
+      "url": "https://emf.creaf.cat/software/medfateland/",
+      "repository": "https://github.com/emf-creaf/medfateland",
+      "documentation": "https://emf-creaf.github.io/medfateland/",
+      "source": "https://emf.creaf.cat/software/medfateland/"
+    }
+  ]
+}

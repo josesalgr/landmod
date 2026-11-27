@@ -1,0 +1,64 @@
+{
+  "tools": [
+    {
+      "id": "formes",
+      "name": "FORMES",
+      "kind": "web",
+      "description_es": "Plataforma de modelización y planificación forestal multiobjetivo. Acceso al sistema de proyección destacado por LANDMOD.",
+      "description_en": "A platform for multi-objective forest modelling and planning. Access the projection system highlighted by LANDMOD.",
+      "credit_es": "Herramienta destacada en la ficha institucional de LANDMOD · CTFC.",
+      "credit_en": "Tool highlighted in LANDMOD’s institutional profile · CTFC.",
+      "url": "https://formes.ctfc.cat/web/home",
+      "repository": "",
+      "documentation": "",
+      "source": "https://www.ctfc.cat/personal24_lindet.php?id=41",
+      "description_ca": "Plataforma de modelització i planificació forestal multiobjectiu. Accés al sistema de projecció destacat per LANDMOD.",
+      "credit_ca": "Eina destacada a la fitxa institucional de LANDMOD · CTFC."
+    },
+    {
+      "id": "remains",
+      "name": "REMAINS",
+      "kind": "r",
+      "description_es": "Paquete R para simular incendios, regeneración de la vegetación y cambios de usos del suelo, y explorar estrategias de gestión del paisaje.",
+      "description_en": "An R package to simulate wildfires, vegetation regeneration and land-use change, and explore landscape management strategies.",
+      "credit_es": "Desarrollado en el marco de FIRE-SMART, con participación del CTFC y CIBIO. Incluye la contribución de Núria Aquilué.",
+      "credit_en": "Developed within FIRE-SMART, with participation from CTFC and CIBIO. Includes contributions by Núria Aquilué.",
+      "url": "https://github.com/FirESmart-Project/REMAINS",
+      "repository": "https://github.com/FirESmart-Project/REMAINS",
+      "documentation": "https://github.com/FirESmart-Project/REMAINS#readme",
+      "source": "https://blog.ctfc.cat/es/nueva-herramienta-de-simulacion-para-explorar-la-dinamica-del-paisaje-y-la-gestion-de-incendios/",
+      "description_ca": "Paquet R per simular incendis, regeneració de la vegetació i canvis d’usos del sòl, i explorar estratègies de gestió del paisatge.",
+      "credit_ca": "Desenvolupat en el marc de FIRE-SMART, amb participació del CTFC i CIBIO. Inclou la contribució de Núria Aquilué."
+    },
+    {
+      "id": "medfate",
+      "name": "medfate",
+      "kind": "r",
+      "description_es": "Simulación del funcionamiento y la dinámica de los bosques mediterráneos: balance hídrico, procesos de las plantas, crecimiento y gestión.",
+      "description_en": "Simulation of Mediterranean forest functioning and dynamics: water balance, plant processes, growth and management.",
+      "credit_es": "Desarrollado y mantenido por EMF/CREAF, con financiación del CSIC y colaboración del CTFC y otras instituciones.",
+      "credit_en": "Developed and maintained by EMF/CREAF, with CSIC funding and collaboration from CTFC and other institutions.",
+      "url": "https://emf.creaf.cat/software/medfate/",
+      "repository": "https://github.com/emf-creaf/medfate",
+      "documentation": "https://emf-creaf.github.io/medfate/",
+      "source": "https://emf.creaf.cat/software/medfate/",
+      "description_ca": "Simulació del funcionament i la dinàmica dels boscos mediterranis: balanç hídric, processos de les plantes, creixement i gestió.",
+      "credit_ca": "Desenvolupat i mantingut per EMF/CREAF, amb finançament del CSIC i col·laboració del CTFC i altres institucions."
+    },
+    {
+      "id": "medfateland",
+      "name": "medfateland",
+      "kind": "r",
+      "description_es": "Extiende medfate a paisajes y cuencas. Permite simular procesos forestales en un contexto espacial y abordar aplicaciones ecohidrológicas.",
+      "description_en": "Extends medfate to landscapes and watersheds, supporting spatial forest simulations and ecohydrological applications.",
+      "credit_es": "Desarrollado y mantenido por EMF/CREAF en colaboración con otras instituciones. La ficha de autoría incluye a Núria Aquilué (CTFC).",
+      "credit_en": "Developed and maintained by EMF/CREAF with other institutions. The authorship page includes Núria Aquilué (CTFC).",
+      "url": "https://emf.creaf.cat/software/medfateland/",
+      "repository": "https://github.com/emf-creaf/medfateland",
+      "documentation": "https://emf-creaf.github.io/medfateland/",
+      "source": "https://emf.creaf.cat/software/medfateland/",
+      "description_ca": "Estén medfate a paisatges i conques. Permet simular processos forestals en un context espacial i abordar aplicacions ecohidrològiques.",
+      "credit_ca": "Desenvolupat i mantingut per EMF/CREAF en col·laboració amb altres institucions. La fitxa d’autoria inclou Núria Aquilué (CTFC)."
+    }
+  ]
+}

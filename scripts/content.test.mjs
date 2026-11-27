@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {normalise,readContent,cmsConfig,importBibTeX} from './content.mjs';
+import {root} from './content.mjs';
+test('normalises bilingual content and retains drafts and references',()=>{const e=normalise({date:'2026-11-25',title:'Título',body:'Texto',title_en:'Title',body_en:'Text',published:false,doi:'10.1/test'},'paper','one');assert.equal(e.title.en,'Title');assert.equal(e.published,false);assert.equal(e.doi,'10.1/test');});
+test('rejects unsafe external links',()=>assert.throws(()=>normalise({date:'2026-11-25',title:'A',body:'B',url:'javascript:alert(1)'},'note','one')));
+test('all public entries have unique IDs',async()=>{const d=await readContent();assert.equal(new Set(d.entries.map(e=>e.id)).size,d.entries.length);assert.ok(d.entries.every(e=>e.published));});
+test('CMS defaults to unpublished and production needs real configuration',async()=>{const config=await cmsConfig();assert.equal(config.collections.length,9);assert.equal(config.collections[0].fields.find(f=>f.name==='published').default,false);if(!process.env.CMS_REPO)await assert.rejects(cmsConfig(true));});
+test('BibTeX imports authors, title, venue, DOI and date',()=>{const [e]=importBibTeX('@article{example,title={Landscape {models}},author={One, A and Two, B},year={2025},journal={Example},doi={10.1234/example}}');assert.equal(e.title.es,'Landscape models');assert.equal(e.date,'2025-01-01');assert.equal(e.doi,'10.1234/example');assert.ok(e.authors.includes(';'));});
+test('public content has no examples and is available in both languages',async()=>{const data=await readContent();assert.ok(data.entries.length>0);for(const entry of data.entries){assert.equal(entry.example,false);for(const lang of ['es','en']){assert.ok(entry.title[lang]);assert.ok(entry.body[lang]);}}});
+test('team has real profile links and existing local images',async()=>{const data=await readContent();assert.ok(data.team.length>0);for(const person of data.team){assert.match(person.profile,/^https:\/\/www\.ctfc\.cat\/personal24_det\.php\?id=\d+$/);assert.ok(person.role_es&&person.role_en);await fs.access(path.join(root,'maqueta',person.image));}});
+test('software catalogue has unique anchors, bilingual credits and valid destinations',async()=>{const data=await readContent();assert.ok(data.software.length>0);assert.equal(new Set(data.software.map(t=>t.id)).size,data.software.length);for(const tool of data.software){assert.match(tool.id,/^[a-z0-9-]+$/);for(const lang of ['es','en'])assert.ok(tool['description_'+lang]&&tool['credit_'+lang]);for(const field of ['url','repository','documentation','source'])if(tool[field])assert.match(tool[field],/^https:\/\//);}});

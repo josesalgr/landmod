@@ -1,0 +1,149 @@
+{
+  "checked": "2026-11-26",
+  "counts": {
+    "article": 67,
+    "chapter": 2,
+    "conference": 20,
+    "preprint": 12,
+    "dataset": 13,
+    "software": 3,
+    "report": 1,
+    "other": 2
+  },
+  "coverage": [
+    {
+      "name": "Núria Aquilué Junyent",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=60",
+      "orcid": [
+        "https://orcid.org/0000-0001-7911-3144"
+      ],
+      "count": 33,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Olivia Cason",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=198",
+      "orcid": [],
+      "count": 1,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Miquel De Cáceres Ainsa",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=197",
+      "orcid": [
+        "https://orcid.org/0000-0001-7132-2080"
+      ],
+      "count": 40,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Pau Garcia Iñurria",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=182",
+      "orcid": [
+        "https://orcid.org/0009-0000-7434-1455"
+      ],
+      "count": 1,
+      "status": "One 2026 preprint verified. Additional publications may be absent from public indexes."
+    },
+    {
+      "name": "Erico Kutchartt",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=94",
+      "orcid": [
+        "https://orcid.org/0000-0002-9134-4591"
+      ],
+      "count": 31,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Victoria Paz Madrid Ayala",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=204",
+      "orcid": [
+        "https://orcid.org/0009-0008-5678-3418"
+      ],
+      "count": 9,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Camilo Matus Olivares",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=306",
+      "orcid": [
+        "https://orcid.org/0000-0002-2436-8374"
+      ],
+      "count": 10,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Matías Moreno Faguett",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=148",
+      "orcid": [
+        "https://orcid.org/0009-0003-6561-234X"
+      ],
+      "count": 10,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Jan Moreno Monteys",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=303",
+      "orcid": [],
+      "count": 0,
+      "status": "No attributable publication located; coverage unverified"
+    },
+    {
+      "name": "José Salgado Rojas",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=39",
+      "orcid": [
+        "https://orcid.org/0000-0001-9817-2625"
+      ],
+      "count": 25,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    },
+    {
+      "name": "Lukman Yazid",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=287",
+      "orcid": [
+        "https://orcid.org/0009-0001-6174-4826"
+      ],
+      "count": 0,
+      "status": "Public ORCID has no works. Conference participation found, but no complete bibliographic record verified. Coverage unverified."
+    },
+    {
+      "name": "Quim Zaldo Aubanell",
+      "profile": "https://www.ctfc.cat/personal24_det.php?id=9",
+      "orcid": [
+        "https://orcid.org/0000-0002-5857-4520"
+      ],
+      "count": 4,
+      "status": "CTFC, DOI registry and ORCID/OpenAlex cross-check; public-index coverage, not author-confirmed completeness"
+    }
+  ],
+  "excluded": [
+    {
+      "doi": "10.5194/egusphere-2024-1355-supplement",
+      "title": "Supplementary material to \"Fuel types and fire severity effects on atmospheric pollutant emissions in an extreme wind-driven wildfire\"",
+      "reason": "Supplement, peer review or duplicate version"
+    },
+    {
+      "doi": "10.1093/obo/9780199830060-0115",
+      "title": "Vegetation Classification",
+      "reason": "Outside 2024–2026",
+      "year": 2013
+    },
+    {
+      "doi": "10.1111/ecog.06985/v3/response1",
+      "title": "Author response for \"Evaluating the influence of neighborhood connectivity and habitat effects in dynamic occupancy species distribution models\"",
+      "reason": "Supplement, peer review or duplicate version"
+    },
+    {
+      "doi": "10.24072/pci.ecology.100993.ar1",
+      "title": "Author response of: Uncovering the relative movements of ecological trajectories. Round#1",
+      "reason": "Supplement, peer review or duplicate version"
+    },
+    {
+      "doi": "10.31219/osf.io/9vrxf_v1",
+      "title": "An interoperable and standardized protocol for reporting systematic conservation planning projects",
+      "reason": "Supplement, peer review or duplicate version"
+    }
+  ],
+  "pending": [],
+  "scope": "Current team members regardless of affiliation at publication. Print/citation year used where provided; online dates can differ. Distinct preprint and journal DOIs retained as labelled versions. DOI deduplication, not a guarantee that every output has been indexed. Datasets, software and reports included separately. Reports without DOI and theses without verified bibliographic records remain outside the imported catalogue."
+}
