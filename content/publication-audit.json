@@ -345,5 +345,72 @@
         "https://api.crossref.org/works?query.title=Species%20Distribution%20Models%20Overfitting%20Effect%20on%20Hidden%20Animal%20Diversity%20Estimation%3A%20Implications%20for%20Conservation%20Decision-Making&filter=type:journal-article&rows=3"
       ]
     }
-  ]
+  ],
+  "month_review": {
+    "checked": "2026-11-27",
+    "checked_records": 9,
+    "completed": 7,
+    "unverified": 2,
+    "records": [
+      {
+        "doi": "10.2139/ssrn.6718798",
+        "status": "month_verified",
+        "date": "2026-05",
+        "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6718798",
+        "basis": "SSRN first posted 12 May 2026, distinct from DOI registration in July."
+      },
+      {
+        "doi": "10.48550/arxiv.2610.37803",
+        "status": "month_verified",
+        "date": "2026-10",
+        "source": "https://arxiv.org/abs/2610.37803",
+        "basis": "arXiv submitted 27 October 2026; DataCite Available date 2026-10."
+      },
+      {
+        "doi": "10.5071/34theubce2026-1ao.4.1",
+        "status": "month_verified",
+        "date": "2026-05",
+        "source": "https://joint-research-centre.ec.europa.eu/events/34th-european-biomass-conference-exhibition-2026-05-19_en",
+        "basis": "Conference contribution dated to the EUBCE event, 19–22 May 2026; proceedings publisher supplies only the year."
+      },
+      {
+        "doi": "10.2139/ssrn.7557268",
+        "status": "month_unverified",
+        "reason": "Publisher/DOI metadata supplies only citation year. DOI registration or unverified secondary dates are not substituted for publication date."
+      },
+      {
+        "doi": "10.1007/978-3-031-93377-6_14",
+        "status": "month_verified",
+        "date": "2026-05",
+        "source": "https://api.crossref.org/works/10.1007/978-3-031-93377-6_14",
+        "basis": "Crossref published-online: 1 May 2026; print record gives only 2026."
+      },
+      {
+        "doi": "10.1016/b978-0-443-40296-8.00002-1",
+        "status": "month_unverified",
+        "reason": "Publisher/DOI metadata supplies only citation year. DOI registration or unverified secondary dates are not substituted for publication date."
+      },
+      {
+        "doi": "10.34810/data2714",
+        "status": "month_verified",
+        "date": "2025-12",
+        "source": "https://api.datacite.org/dois/10.34810/data2714",
+        "basis": "DataCite Available: 1 December 2025. Submission and collection dates not used."
+      },
+      {
+        "doi": "10.2139/ssrn.4692303",
+        "status": "month_verified",
+        "date": "2024-01",
+        "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4692303",
+        "basis": "SSRN posted 12 January 2024."
+      },
+      {
+        "doi": "10.13140/rg.2.2.36269.09443",
+        "status": "month_verified",
+        "date": "2024-09",
+        "source": "https://www.researchgate.net/doi/10.13140/RG.2.2.36269.09443",
+        "basis": "Author-uploaded poster lists September 2024, CICARC 2024; October upload date not used."
+      }
+    ]
+  }
 }
